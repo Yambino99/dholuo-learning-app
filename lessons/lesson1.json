@@ -1,0 +1,196 @@
+{
+    "id": 1,
+    "title": "Basic Pronouns",
+    "description": "Learn the fundamental pronouns in Dholuo",
+    "sections": [
+      {
+        "type": "theory",
+        "title": "📚 Theory: Basic Pronouns",
+        "content": {
+          "introduction": "Pronouns are the building blocks of Dholuo sentences. Understanding these will help you form your first sentences and understand how Dholuo grammar works.",
+          "phrases": [
+            {
+              "dholuo": "An",
+              "literal": "I",
+              "english": "I",
+              "notes": "First person singular pronoun - used when talking about yourself"
+            },
+            {
+              "dholuo": "In",
+              "literal": "You",
+              "english": "You",
+              "notes": "Second person singular pronoun - used when talking to one person"
+            },
+            {
+              "dholuo": "En",
+              "literal": "He/She",
+              "english": "He/She",
+              "notes": "Third person singular pronoun - used when talking about someone else"
+            },
+            {
+              "dholuo": "Wan",
+              "literal": "We",
+              "english": "We",
+              "notes": "First person plural pronoun - used when talking about a group including yourself"
+            }
+          ],
+          "grammar_note": "Notice that Dholuo pronouns are simpler than English - there's no distinction between 'he' and 'she' in the third person."
+        }
+      },
+      {
+        "type": "conversation",
+        "title": "💬 Conversation Practice",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "An Yambino",
+              "literal": "I Yambino (no 'to be' verb needed)",
+              "english": "I am Yambo",
+              "highlighted_pronoun": "An"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "In ng'a?",
+              "literal": "You who?",
+              "english": "Who are you?",
+              "highlighted_pronoun": "In"
+            },
+            {
+              "speaker": "Yambo", 
+              "speaker_type": "A",
+              "dholuo": "An Akinyi",
+              "literal": "I Akinyi",
+              "english": "I am Akinyi",
+              "highlighted_pronoun": "An"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B", 
+              "dholuo": "En kanye?",
+              "literal": "He/She where?",
+              "english": "Where is he/she?",
+              "highlighted_pronoun": "En"
+            },
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "En e dala",
+              "literal": "He/She at home",
+              "english": "He/she is at home",
+              "highlighted_pronoun": "En"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "Wan wadhi?",
+              "literal": "We go?",
+              "english": "Are we going?",
+              "highlighted_pronoun": "Wan"
+            }
+          ],
+          "note": "Notice: The pronouns An (I), In (you), En (he/she), and Wan (we) are highlighted in the conversation. These are the building blocks for making sentences in Dholuo!"
+        }
+      },
+      {
+        "type": "vocabulary",
+        "title": "📚 Vocabulary from the Conversation",
+        "content": {
+          "words": [
+            {
+              "dholuo": "An",
+              "english": "I",
+              "type": "Pronoun",
+              "notes": "First person singular pronoun"
+            },
+            {
+              "dholuo": "In", 
+              "english": "You",
+              "type": "Pronoun",
+              "notes": "Second person singular pronoun"
+            },
+            {
+              "dholuo": "En",
+              "english": "He/She", 
+              "type": "Pronoun",
+              "notes": "Third person singular pronoun"
+            },
+            {
+              "dholuo": "Wan",
+              "english": "We",
+              "type": "Pronoun", 
+              "notes": "First person plural pronoun"
+            },
+            {
+              "dholuo": "ng'a",
+              "english": "who",
+              "type": "Question Word",
+              "notes": "Used to ask about identity"
+            },
+            {
+              "dholuo": "kanye",
+              "english": "where", 
+              "type": "Question Word",
+              "notes": "Used to ask about location"
+            },
+            {
+              "dholuo": "dala",
+              "english": "home",
+              "type": "Location",
+              "notes": "Can mean house or homestead"
+            },
+            {
+              "dholuo": "dhi",
+              "english": "go",
+              "type": "Verb", 
+              "notes": "Basic movement verb"
+            },
+            {
+              "dholuo": "Yambino / Akinyi",
+              "english": "Common Luo names",
+              "type": "Names",
+              "notes": "Yambino (male), Akinyi (female, born at dawn)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "pronunciation": [
+            {
+              "dholuo": "An",
+              "phonetic": "[ahn]",
+              "tips": "Short 'a' sound like in 'father', followed by 'n'",
+              "audio_file": "audio/an.mp3"
+            },
+            {
+              "dholuo": "Misawa",
+              "phonetic": "[mee-SAH-wah]", 
+              "tips": "Stress on the second syllable. 'Mi' sounds like 'me', 'sa' like 'sah', 'wa' like 'wah'",
+              "audio_file": "audio/misawa.mp3"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What pronoun means 'I' in Dholuo?",
+              "options": ["En", "An", "In", "Wan"],
+              "correct_answer": 1,
+              "explanation": "An is the first person singular pronoun meaning 'I'"
+            },
+            {
+              "type": "multiple_choice", 
+              "question": "How do you say 'Who are you?' in Dholuo?",
+              "options": ["An ng'a?", "In ng'a?", "En ng'a?", "Wan ng'a?"],
+              "correct_answer": 1,
+              "explanation": "In ng'a? literally means 'You who?' which translates to 'Who are you?'"
+            }
+          ]
+        }
+      }
+    ]
+}
