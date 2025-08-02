@@ -1,5 +1,5 @@
 {
-    "id": 1,
+    "id": 2,
     "title": "Basic Pronouns",
     "description": "Learn the fundamental pronouns in Dholuo",
     "sections": [
@@ -7,30 +7,64 @@
         "type": "theory",
         "title": "📚 Theory: Basic Pronouns",
         "content": {
-          "introduction": "Pronouns are the building blocks of Dholuo sentences. Understanding these will help you form your first sentences and understand how Dholuo grammar works.",
+          "introduction": "Pronouns can be attached to verbs to show the subject of the verb (i.e., the person doing the verb) or the object of the sentence (i.e., the person the verb is being done to). To attach a pronoun to a verb, you remove the 'n' at the end of the pronoun and attach the remaining part to the verb. For example: 'An' means 'I' and 'dhi' means 'to go'. To say 'I go', you would say 'Adhi' - you remove the 'n' from 'An' and attach 'A' to the verb 'dhi'.",
           "phrases": [
             {
-              "dholuo": "An",
-              "english": "I",
-              "notes": "First person singular pronoun - used when talking about yourself"
-            },
-            {
-              "dholuo": "In",
-              "english": "You",
-              "notes": "Second person singular pronoun - used when talking to one person"
-            },
-            {
-              "dholuo": "En",
-              "english": "He/She",
-              "notes": "Third person singular pronoun - used when talking about someone else"
-            },
-            {
-              "dholuo": "Wan",
-              "english": "We",
-              "notes": "First person plural pronoun - used when talking about a group including yourself"
-            }
+                "dholuo": "An + dhi = Adhi",
+                "literal": "I + go = I go",
+                "english": "I go",
+                "notes": "Remove 'n' from 'An', attach 'A' to 'dhi'"
+              },
+              {
+                "dholuo": "In + dhi = Idhi", 
+                "literal": "You + go = You go",
+                "english": "You go",
+                "notes": "Remove 'n' from 'In', attach 'I' to 'dhi'"
+              },
+              {
+                "dholuo": "En + dhi = Odhi",
+                "literal": "He/She + goes = He/She goes",
+                "english": "He/She goes",
+                "notes": "The third person singular is unique. The 'e' turns to 'o'."
+              },
+              {
+                "dholuo": "Wan + dhi = Wadhi",
+                "literal": "We + go = We go",
+                "english": "We go",
+                "notes": "Remove 'n' from 'Wan', attach 'Wa' to 'dhi'"
+              },
+              {
+                "dholuo": "Un + dhi = Udhi",
+                "literal": "You (plural) + go = You go",
+                "english": "You go",
+                "notes": "Remove 'n' from 'Un', attach 'U' to 'dhi'"
+              },
+              {
+                "dholuo": "Gin + dhi = Gidhi",
+                "literal": "They + go = They go",
+                "english": "They go",
+                "notes": "Remove 'n' from 'Gin', attach 'Gi' to 'dhi'"
+              },
+              {
+                "dholuo": "O + hero + wa = Oherowa", 
+                "literal": "He/she + loves + us = He/she loves us",
+                "english": "He/she loves us.",
+                "notes": "Pronouns can also be attached at the end of verbs to show who the action is being done. In this case, you remove the 'n' from 'wan' and attach it to the end of the verb."
+              },
+              {
+                "dholuo": "A + miyo + gi = Amiyogi", 
+                "literal": "I + give + them = I give them",
+                "english": "I give them.",
+                "notes": "The pronoun at the beginning of the verb shows who is doing the action. The one at the end shows who the action is being done to."
+              },
+              {
+                "dholuo": "Wa + moso + e = Wamose", 
+                "literal": "We + greet + her (or him) = We greet her (or him).",
+                "english": "We greet her",
+                "notes": "Here, you remove the 'n' from 'Wan' and attach it to the front of the verb. You do the same with 'En' and attach it to the end of the verb."
+              }
           ],
-          "grammar_note": "Notice that Dholuo pronouns are simpler than English - there's no distinction between 'he' and 'she' in the third person."
+          "grammar_note": "The third person singular 'En' takes the form 'O' when it is the subject of the verb but the form 'e' when it is the object."
         }
       },
       {
@@ -41,42 +75,42 @@
             {
               "speaker": "Yambo",
               "speaker_type": "A",
-              "dholuo": "An Yambino",
-              "literal": "I Yambino (no 'to be' verb needed)",
-              "english": "I am Yambo",
-              "highlighted_pronoun": "An"
+              "dholuo": "Idhi kanye?",
+              "literal": "You go where?",
+              "english": "Where are you going",
+              "highlighted_pronoun": "I"
             },
             {
               "speaker": "Akinyi",
               "speaker_type": "B",
-              "dholuo": "In ng'a?",
-              "literal": "You who?",
-              "english": "Who are you?",
-              "highlighted_pronoun": "In"
+              "dholuo": "Adhi limogi",
+              "literal": "I go visit them",
+              "english": "I'm going to visit them",
+              "highlighted_pronoun": "In, gi"
             },
             {
               "speaker": "Yambo", 
               "speaker_type": "A",
-              "dholuo": "An Akinyi",
-              "literal": "I Akinyi",
-              "english": "I am Akinyi",
-              "highlighted_pronoun": "An"
+              "dholuo": "Iherogi",
+              "literal": "You love them",
+              "english": "You love them",
+              "highlighted_pronoun": "I, gi"
             },
             {
               "speaker": "Akinyi",
               "speaker_type": "B", 
-              "dholuo": "En kanye?",
-              "literal": "He/She where?",
-              "english": "Where is he/she?",
+              "dholuo": "Ang'eyo",
+              "literal": "I know",
+              "english": "I know",
               "highlighted_pronoun": "En"
             },
             {
               "speaker": "Yambo",
               "speaker_type": "A",
-              "dholuo": "En e dala",
-              "literal": "He/She at home",
-              "english": "He/she is at home",
-              "highlighted_pronoun": "En"
+              "dholuo": "Gin be giherou",
+              "literal": "They also they love you.",
+              "english": "They love you as well.",
+              "highlighted_pronoun": "Gin, gi, u"
             },
             {
               "speaker": "Akinyi",
