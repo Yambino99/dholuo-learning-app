@@ -2,6 +2,8 @@
 let currentLesson = null;
 let currentSection = 0;
 let totalSections = 0;
+let currentLessonNumber = 1;  // Track which lesson we're on
+let totalLessons = 30;  // number of planned lessons
 
 // Main function to load a lesson
 async function loadLesson(lessonId) {
@@ -266,7 +268,18 @@ function previousSection() {
 
 function completeLesson() {
     alert('Lesson completed! 🎉\n\nGreat job learning about Dholuo pronouns!');
-    // You could redirect to lesson selection or next lesson here
+    // And/or go to the next lesson
+    nextLesson();
+}
+
+function nextLesson() {
+    if (currentLessonNumber < totalLessons) {
+        currentLessonNumber++;
+        loadLesson(currentLessonNumber);  // Use existing loadLesson function
+        updateProgress();
+    } else {
+        alert('Congratulations! You\'ve completed all lessons! 🎉');
+    }
 }
 
 // Update progress bar
@@ -280,7 +293,7 @@ function updateProgress() {
     }
     
     if (progressText) {
-        progressText.textContent = `Section ${currentSection + 1} of ${totalSections}`;
+        progressText.textContent = `Lesson ${currentLessonNumber} - Section ${currentSection + 1} of ${totalSections}`;
     }
 }
 
