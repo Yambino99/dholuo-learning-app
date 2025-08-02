@@ -164,10 +164,46 @@
               "audio_file": "audio/an.mp3"
             },
             {
-              "dholuo": "Misawa",
-              "phonetic": "[mee-SAH-wah]", 
-              "tips": "Stress on the second syllable. 'Mi' sounds like 'me', 'sa' like 'sah', 'wa' like 'wah'",
-              "audio_file": "audio/misawa.mp3"
+              "dholuo": "In",
+              "phonetic": "[In]",
+              "tips": "Just like the english word 'in'",
+              "audio_file": "audio/an.mp3"
+            },
+            {
+              "dholuo": "En",
+              "phonetic": "[Ehn]",
+              "tips": "'Hen' without the 'h'",
+              "audio_file": "audio/an.mp3"
+            },
+            {
+              "dholuo": "Wan",
+              "phonetic": "[wahn]",
+              "tips": "Like the number 'one'",
+              "audio_file": "audio/an.mp3"
+            },
+            {
+              "dholuo": "Un",
+              "phonetic": "[Oon]",
+              "tips": "'Noon' without the 'n'. Common sound in French too.",
+              "audio_file": "audio/an.mp3"
+            },
+            {
+              "dholuo": "Gin",
+              "phonetic": "[geen]",
+              "tips": "Rhymes with 'scene'. Use a hard 'g'. Sounds like the anime name 'Ichimaru Gin' from Bleach.",
+              "audio_file": "audio/an.mp3"
+            },
+            {
+              "dholuo": "ng'a",
+              "phonetic": "ng-AH", 
+              "tips": "Uses the 'ng' sound at the end of sing.",
+              "audio_file": "audio/ng'a.mp3"
+            },
+            {
+              "dholuo": "ng'eyo",
+              "phonetic": "ng-AY-yo", 
+              "tips": "Uses the 'ng' sound at the end of sing.",
+              "audio_file": "audio/ng'eyo.mp3"
             }
           ],
           "exercises": [
@@ -179,11 +215,32 @@
               "explanation": "An is the first person singular pronoun meaning 'I'"
             },
             {
+              "type": "multiple_choice",
+              "question": "What is its plural?",
+              "options": ["En", "An", "In", "Wan"],
+              "correct_answer": 4,
+              "explanation": "Wan is the first person plural pronoun meaning 'We'"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What pronoun means 'you' (singular) in Dholuo?",
+              "options": ["En", "Un", "In", "Wan"],
+              "correct_answer": 2,
+              "explanation": "'In' is the singular pronoun for 'you' when talking to one person."
+            },
+            {
               "type": "multiple_choice", 
-              "question": "How do you say 'Who are you?' in Dholuo?",
-              "options": ["An ng'a?", "In ng'a?", "En ng'a?", "Wan ng'a?"],
+              "question": "What pronoun means 'you' (plural) in Dholuo?",
+              "options": ["En", "Un", "In", "Wan"],
               "correct_answer": 1,
-              "explanation": "In ng'a? literally means 'You who?' which translates to 'Who are you?'"
+              "explanation": "'Un' is the plural pronoun for 'you' when talking to multiple people."
+            },
+            {
+              "type": "multiple_choice", 
+              "question": "How do you say 'Who is he/she?' in Dholuo?",
+              "options": ["An ng'a?", "In ng'a?", "En ng'a?", "Wan ng'a?"],
+              "correct_answer": 3,
+              "explanation": "En ng'a? literally means 'He/she who?' which translates to 'Who is he/she?'. It's gender neutral."
             }
           ]
         }
