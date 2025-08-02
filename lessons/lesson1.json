@@ -11,25 +11,21 @@
           "phrases": [
             {
               "dholuo": "An",
-              "literal": "I",
               "english": "I",
               "notes": "First person singular pronoun - used when talking about yourself"
             },
             {
               "dholuo": "In",
-              "literal": "You",
               "english": "You",
               "notes": "Second person singular pronoun - used when talking to one person"
             },
             {
               "dholuo": "En",
-              "literal": "He/She",
               "english": "He/She",
               "notes": "Third person singular pronoun - used when talking about someone else"
             },
             {
               "dholuo": "Wan",
-              "literal": "We",
               "english": "We",
               "notes": "First person plural pronoun - used when talking about a group including yourself"
             }
