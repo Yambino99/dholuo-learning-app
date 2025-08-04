@@ -7,7 +7,7 @@
         "type": "theory",
         "title": "📚 Theory: Basic Pronouns",
         "content": {
-          "introduction": "Pronouns can be attached to verbs to show the subject of the verb (i.e., the person doing the verb) or the object of the sentence (i.e., the person the verb is being done to). To attach a pronoun to a verb, you remove the 'n' at the end of the pronoun and attach the remaining part to the verb. For example: 'An' means 'I' and 'dhi' means 'to go'. To say 'I go', you would say 'Adhi' - you remove the 'n' from 'An' and attach 'A' to the verb 'dhi'.",
+          "introduction": "Pronouns can be attached to verbs to show the subject of the verb (i.e., the person doing the verb) or the object of the verb (i.e., the person the verb is being done to). To attach a pronoun to a verb, you remove the 'n' at the end of the pronoun and attach the remaining part to the verb. For example: 'An' means 'I' and 'dhi' means 'to go'. To say 'I go', you would say 'Adhi' - you remove the 'n' from 'An' and attach 'A' to the verb 'dhi'.",
           "phrases": [
             {
                 "dholuo": "An + dhi = Adhi",
@@ -46,22 +46,35 @@
                 "notes": "Remove 'n' from 'Gin', attach 'Gi' to 'dhi'"
               },
               {
-                "dholuo": "O + hero + wa = Oherowa", 
+                "dholuo": "O + hero + an = Ohera", 
+                "literal": "He/she + loves + us = He/she loves me",
+                "english": "He/she loves me.",
+                "notes": "Pronouns can also be attached at the end of verbs to show who the action is being done. In this case, you remove the 'n' from 'an' and attach it to the end of the verb."
+              },
+              {
+                "dholuo": "O + hero + in = Oheri", 
+                "literal": "He/she + loves + you = He/she loves you",
+                "english": "He/she loves you."
+              },
+              {
+                "dholuo": "O + hero + en = Ohere", 
+                "literal": "He/she + loves + us = He/she loves him/her",
+                "english": "He/she loves him/her."
+              },
+              {
+                "dholuo": "O + hero + wan = Oherowa", 
                 "literal": "He/she + loves + us = He/she loves us",
-                "english": "He/she loves us.",
-                "notes": "Pronouns can also be attached at the end of verbs to show who the action is being done. In this case, you remove the 'n' from 'wan' and attach it to the end of the verb."
+                "english": "He/she loves us."
               },
               {
-                "dholuo": "A + miyo + gi = Amiyogi", 
-                "literal": "I + give + them = I give them",
-                "english": "I give them.",
-                "notes": "The pronoun at the beginning of the verb shows who is doing the action. The one at the end shows who the action is being done to."
+                "dholuo": "O + hero + un = Oherou", 
+                "literal": "He/she + loves + you = He/she loves you",
+                "english": "He/she loves you."
               },
               {
-                "dholuo": "Wa + moso + e = Wamose", 
-                "literal": "We + greet + her (or him) = We greet her (or him).",
-                "english": "We greet her",
-                "notes": "Here, you remove the 'n' from 'Wan' and attach it to the front of the verb. You do the same with 'En' and attach it to the end of the verb."
+                "dholuo": "O + hero + gin = Oherogi", 
+                "literal": "He/she + loves + them = He/she loves them",
+                "english": "He/she loves them."
               }
           ],
           "grammar_note": "The third person singular 'En' takes the form 'O' when it is the subject of the verb but the form 'e' when it is the object."
@@ -111,14 +124,6 @@
               "literal": "They also they love you.",
               "english": "They love you as well.",
               "highlighted_pronoun": "Gin, gi, u"
-            },
-            {
-              "speaker": "Akinyi",
-              "speaker_type": "B",
-              "dholuo": "Wan wadhi?",
-              "literal": "We go?",
-              "english": "Are we going?",
-              "highlighted_pronoun": "Wan"
             }
           ],
           "note": "Notice: The pronouns An (I), In (you), En (he/she), and Wan (we) are highlighted in the conversation. These are the building blocks for making sentences in Dholuo!"
@@ -130,58 +135,15 @@
         "content": {
           "words": [
             {
-              "dholuo": "An",
-              "english": "I",
+              "dholuo": "Hero",
+              "english": "To love",
+              "type": "Verb",
+            },
+            {
+              "dholuo": "Be", 
+              "english": "Also",
               "type": "Pronoun",
-              "notes": "First person singular pronoun"
-            },
-            {
-              "dholuo": "In", 
-              "english": "You",
-              "type": "Pronoun",
-              "notes": "Second person singular pronoun"
-            },
-            {
-              "dholuo": "En",
-              "english": "He/She", 
-              "type": "Pronoun",
-              "notes": "Third person singular pronoun"
-            },
-            {
-              "dholuo": "Wan",
-              "english": "We",
-              "type": "Pronoun", 
-              "notes": "First person plural pronoun"
-            },
-            {
-              "dholuo": "ng'a",
-              "english": "who",
-              "type": "Question Word",
-              "notes": "Used to ask about identity"
-            },
-            {
-              "dholuo": "kanye",
-              "english": "where", 
-              "type": "Question Word",
-              "notes": "Used to ask about location"
-            },
-            {
-              "dholuo": "dala",
-              "english": "home",
-              "type": "Location",
-              "notes": "Can mean house or homestead"
-            },
-            {
-              "dholuo": "dhi",
-              "english": "go",
-              "type": "Verb", 
-              "notes": "Basic movement verb"
-            },
-            {
-              "dholuo": "Yambino / Akinyi",
-              "english": "Common Luo names",
-              "type": "Names",
-              "notes": "Yambino (male), Akinyi (female, born at dawn)"
+              "notes": "Pronounced 'bay'. It's the short form of the word 'bende' which means 'also'."
             }
           ]
         }
@@ -192,96 +154,56 @@
         "content": {
           "pronunciation": [
             {
-              "dholuo": "An",
-              "phonetic": "[ahn]",
-              "tips": "Short 'a' sound like in 'father', followed by 'n'",
-              "audio_file": "audio/an.mp3"
+              "dholuo": "Be",
+              "phonetic": "[bay]",
+              "tips": "Sounds like 'bay'",
+              "audio_file": "audio/be.mp3"
             },
             {
-              "dholuo": "In",
+              "dholuo": "Hero",
               "phonetic": "[In]",
               "tips": "Just like the english word 'in'",
-              "audio_file": "audio/an.mp3"
+              "audio_file": "audio/hero.mp3"
             },
             {
-              "dholuo": "En",
-              "phonetic": "[Ehn]",
-              "tips": "'Hen' without the 'h'",
-              "audio_file": "audio/an.mp3"
+              "dholuo": "Giherou",
+              "phonetic": "[ghee-heh-ro-oo]",
+              "audio_file": "audio/giherou.mp3"
             },
             {
-              "dholuo": "Wan",
-              "phonetic": "[wahn]",
-              "tips": "Like the number 'one'",
-              "audio_file": "audio/an.mp3"
-            },
-            {
-              "dholuo": "Un",
-              "phonetic": "[Oon]",
-              "tips": "'Noon' without the 'n'. Common sound in French too.",
-              "audio_file": "audio/an.mp3"
-            },
-            {
-              "dholuo": "Gin",
-              "phonetic": "[geen]",
-              "tips": "Rhymes with 'scene'. Use a hard 'g'. Sounds like the anime name 'Ichimaru Gin' from Bleach.",
-              "audio_file": "audio/an.mp3"
-            },
-            {
-              "dholuo": "ng'a",
-              "phonetic": "ng-AH", 
-              "tips": "Uses the 'ng' sound at the end of sing.",
-              "audio_file": "audio/ng'a.mp3"
-            },
-            {
-              "dholuo": "ng'eyo",
-              "phonetic": "ng-AY-yo", 
-              "tips": "Uses the 'ng' sound at the end of sing.",
-              "audio_file": "audio/ng'eyo.mp3"
+              "dholuo": "Ang'eyo",
+              "phonetic": "[ah-ng-ay-yo]",
+              "audio_file": "audio/ang'eyo.mp3"
             }
           ],
           "exercises": [
             {
               "type": "multiple_choice",
-              "question": "What pronoun means 'I' in Dholuo?",
-              "options": ["En", "An", "In", "Wan"],
+              "question": "How do you say 'I am eating' in dholuo?",
+              "options": ["Achiemo", "Ichiemo", "Ochiemo", "Wachiemo"],
               "correct_answer": 1,
-              "explanation": "An is the first person singular pronoun meaning 'I'"
+              "explanation": "An is the first person singular pronoun meaning 'I'. You drop the 'n' before attaching it to the beginning of the verb to show the doer of the action."
             },
             {
               "type": "multiple_choice",
-              "question": "What is its plural?",
-              "options": ["En", "An", "In", "Wan"],
+              "question": "The verb 'moso' means 'to greet'. What does 'Amosou' mean?",
+              "options": ["You are greeting me.", "We are greeting each other.", "She is greeting him.", "I am greeting you."],
               "correct_answer": 4,
-              "explanation": "Wan is the first person plural pronoun meaning 'We'"
+              "explanation": "The 'A' at the front of the verb means 'I' and it indicates the doer of the action. The 'u' at the end means 'you (plural)' and indicates the person the action is being done to."
             },
             {
               "type": "multiple_choice",
-              "question": "What pronoun means 'you' (singular) in Dholuo?",
-              "options": ["En", "Un", "In", "Wan"],
+              "question": "What does the word 'be' in dholuo mean?",
+              "options": ["to become", "also", "baby", "bae"],
               "correct_answer": 2,
-              "explanation": "'In' is the singular pronoun for 'you' when talking to one person."
+              "explanation": "'Be' is the short form of the word 'Bende' which means 'also'."
             },
             {
               "type": "multiple_choice", 
               "question": "What pronoun means 'you' (plural) in Dholuo?",
               "options": ["En", "Un", "In", "Wan"],
-              "correct_answer": 1,
+              "correct_answer": 2,
               "explanation": "'Un' is the plural pronoun for 'you' when talking to multiple people."
-            },
-            {
-              "type": "multiple_choice", 
-              "question": "How do you say 'Who is he/she?' in Dholuo?",
-              "options": ["An ng'a?", "In ng'a?", "En ng'a?", "Wan ng'a?"],
-              "correct_answer": 3,
-              "explanation": "En ng'a? literally means 'He/she who?' which translates to 'Who is he/she?'. It's gender neutral."
-            },
-            {
-              "type": "multiple_choice", 
-              "question": "What does 'Un udhi kanye?' mean in English?",
-              "options": ["Where am I going?", "Where is she going?", "Where are you going?", "Where are we going?"],
-              "correct_answer": 3,
-              "explanation": "'Un' means 'you' when referring to a group of people. 'Dhi' is the verb meaning 'to go' and 'kanye' means 'where'. Put together, it translates to: 'Where are you going?'"
             }
           ]
         }

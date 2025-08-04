@@ -232,7 +232,7 @@
               "type": "multiple_choice", 
               "question": "What pronoun means 'you' (plural) in Dholuo?",
               "options": ["En", "Un", "In", "Wan"],
-              "correct_answer": 1,
+              "correct_answer": 2,
               "explanation": "'Un' is the plural pronoun for 'you' when talking to multiple people."
             },
             {
