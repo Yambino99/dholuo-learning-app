@@ -7,12 +7,17 @@ let totalLessons = 30;  // number of planned lessons
 
 // Main function to load a lesson
 async function loadLesson(lessonId) {
+
+    console.log('loadLesson called with lessonId:', lessonId);
+    console.log('Fetching URL:', `lessons/lesson${lessonId}.json`);
+
     try {
         const response = await fetch(`lessons/lesson${lessonId}.json`);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const lesson = await response.json();
+        console.log('Lesson loaded successfully:', lesson.title);
         currentLesson = lesson;
         totalSections = lesson.sections.length;
         currentSection = 0;
@@ -273,8 +278,11 @@ function completeLesson() {
 }
 
 function nextLesson() {
+    console.log('next lesson called');
+    console.log('Current lesson number before increment:', currentLessonNumber);
     if (currentLessonNumber < totalLessons) {
         currentLessonNumber++;
+        console.log('Incremented to lesson:', currentLessonNumber);
         loadLesson(currentLessonNumber);  // Use existing loadLesson function
         updateProgress();
     } else {
