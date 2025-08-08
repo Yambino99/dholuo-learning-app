@@ -1,0 +1,196 @@
+{
+    "id": 3,
+    "title": "Introduction to Adjectives and Adverbs",
+    "description": "Learn the fundamental pronouns in Dholuo",
+    "sections": [
+      {
+        "type": "theory",
+        "title": "📚 Theory: Introduction to Adjectives",
+        "content": {
+          "introduction": "Adjectives are words that describe nouns: beautiful or good (ber), tall (bor), sweet or tasty (mit), sad (sin). Adverbs are words that describe verbs: quickly (piyo), slowly (mos). In Dholuo, adjectives and adverbs can often be used interchangeably. Thus 'ber' means both 'good' and 'well' and 'piyo' means both 'fast' and 'quickly'.",
+          "phrases": [
+            {
+                "dholuo": "Rach",
+                "english": "Bad",
+                "notes": "Adjectives may take the particle 'ma' before the word they describe. Eg. 'Chiemo <strong>ma</strong>rach' which means 'bad food'."
+              },
+              {
+                "dholuo": "Ber", 
+                "english": "Good"
+              },
+              {
+                "dholuo": "Ng'eny", 
+                "english": "A lot"
+              },
+              {
+                "dholuo": "Tin", 
+                "english": "A little",
+                "notes": "Can also mean 'small'"
+              },
+              {
+                "dholuo": "Duong'", 
+                "english": "Big"
+              },
+              {
+                "dholuo": "Liet", 
+                "english": "Hot"
+              },
+              {
+                "dholuo": "Ng'ich", 
+                "english": "Cold"
+              }
+          ],
+          "grammar_note": "Let's go over to the next section to see how these adjectives are used in a sentence."
+        }
+      },
+      {
+        "type": "conversation",
+        "title": "💬 Conversation Practice",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Nyathi maduong' ni kanye?",
+              "literal": "The baby + big + is + where?",
+              "english": "Where is the big baby"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "Nyathi maduong' odhi oko.",
+              "literal": "The baby + big + he's gone + outside",
+              "english": "The big baby has gone outside"
+            },
+            {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "Otedo?",
+                "literal": "He cooked?",
+                "english": "He cooked?"
+              },
+              {
+                "speaker": "Akinyi",
+                "speaker_type": "B",
+                "dholuo": "Eeh, otedo maber.",
+                "literal": "Yes + he cooked + well.",
+                "english": "Yes, he cooked well."
+              },
+            {
+              "speaker": "Yambo", 
+              "speaker_type": "A",
+              "dholuo": "To nyathi matin?",
+              "literal": "And + the baby + small?",
+              "english": "And the small baby?"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B", 
+              "dholuo": "Matin ni ka",
+              "literal": "The small one + is + here ",
+              "english": "The small baby is here."
+            },
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Osechiemo?",
+              "literal": "Has he already eaten?",
+              "english": "Has he already eaten?"
+            },
+            {
+                "speaker": "Akinyi",
+                "speaker_type": "B", 
+                "dholuo": "Eeh. Ochiemo mang'eny.",
+                "literal": "Yes + he ate + a lot",
+                "english": "Yes. He ate a lot."
+              }
+          ]
+        }
+      },
+      {
+        "type": "vocabulary",
+        "title": "📚 Vocabulary from the Conversation",
+        "content": {
+          "words": [
+            {
+              "dholuo": "Nyathi",
+              "english": "A baby",
+              "type": "Noun"
+            },
+            {
+              "dholuo": "Tedo", 
+              "english": "To Cook",
+              "type": "Verb",
+              "notes": "Pronounced 'tay-dough'."
+            },
+            {
+                "dholuo": "Ka", 
+                "english": "Here",
+                "type": "Adverb",
+                "notes": "Pronounced 'car'."
+              }
+          ]
+        }
+      },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "pronunciation": [
+            {
+              "dholuo": "Be",
+              "phonetic": "[bay]",
+              "tips": "Sounds like 'bay'",
+              "audio_file": "audio/be.mp3"
+            },
+            {
+              "dholuo": "Hero",
+              "phonetic": "[heh-raw]",
+              "tips": "Just like the english word 'in'",
+              "audio_file": "audio/hero.mp3"
+            },
+            {
+              "dholuo": "Giherou",
+              "phonetic": "[ghee-heh-raw-oo]",
+              "audio_file": "audio/giherou.mp3"
+            },
+            {
+              "dholuo": "Ang'eyo",
+              "phonetic": "[ah-ng-ay-yo]",
+              "audio_file": "audio/ang'eyo.mp3"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "How do you say 'I am eating' in dholuo?",
+              "options": ["Achiemo", "Ichiemo", "Ochiemo", "Wachiemo"],
+              "correct_answer": 1,
+              "explanation": "An is the first person singular pronoun meaning 'I'. You drop the 'n' before attaching it to the beginning of the verb to show the doer of the action."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The verb 'moso' means 'to greet'. What does 'Amosou' mean?",
+              "options": ["You are greeting me.", "We are greeting each other.", "She is greeting him.", "I am greeting you all."],
+              "correct_answer": 4,
+              "explanation": "The 'A' at the front of the verb means 'I' and it indicates the doer of the action. The 'u' at the end means 'you (plural)' and indicates the person the action is being done to."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does the word 'be' in dholuo mean?",
+              "options": ["to become", "also", "baby", "bae"],
+              "correct_answer": 2,
+              "explanation": "'Be' is the short form of the word 'Bende' which means 'also'."
+            },
+            {
+              "type": "multiple_choice", 
+              "question": "What pronoun means 'you' (plural) in Dholuo?",
+              "options": ["En", "Un", "In", "Wan"],
+              "correct_answer": 2,
+              "explanation": "'Un' is the plural pronoun for 'you' when talking to multiple people."
+            }
+          ]
+        }
+      }
+    ]
+}

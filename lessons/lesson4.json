@@ -1,0 +1,307 @@
+{
+"id": 3,
+"title": "Introduction to Adjectives and Adverbs",
+"description": "Learn the fundamental pronouns in Dholuo",
+"sections": [
+  {
+    "type": "theory",
+    "title": "📚 Introducing Yourself",
+    "content": {
+      "introduction": "Greetings in Luo are quite formulaic and very important. The greeting you use depends on the time of day, and the familiarity between the people involved in the conversation.",
+      "phrases": [
+        {
+            "dholuo": "Oyaore",
+            "literal": "It (referring to the sky) has opened itself.",
+            "english": "Good morning",
+            "notes": "This greeting is used in the morning as the sun rises."
+          },
+          {
+            "dholuo": "Oyaore ahinya",
+            "literal": "It has opened itself, verily", 
+            "english": "Good morning",
+            "notes": "This is how to respond when greeted with 'oyaore'. The word 'ahinya' means 'a lot' or 'verily'."
+          },
+          {
+            "dholuo": "Ichiew nade?",
+            "literal": "You woke up, how?", 
+            "english": "How did you wake up?",
+            "notes": "The verb 'chiew' means 'to wake up'. And the question tag 'nade' means 'how'."
+          },
+          {
+            "dholuo": "Achiew maber",
+            "english": "I woke up well"
+          },
+          {
+            "dholuo": "Oyaore uru",
+            "literal": "It has opened up, y'all", 
+            "english": "Good morning",
+            "notes": "This is used when greeting multiple people at the same time. The 'uru' at the end translates to 'y'all'. The people being greeted would respond 'oyaore ahinya'."
+          },
+          {
+            "dholuo": "Oimore",
+            "literal": "It (referring to the sky) has covered itself.", 
+            "english": "Good evening",
+            "notes": "This greeting is used in the evening."
+          },
+          {
+            "dholuo": "Oimore uru",
+            "literal": "It has covered itself, y'all", 
+            "english": "Good evening",
+            "notes": "This is used when greeting multiple people at the same time."
+          },
+          {
+            "dholuo": "Oimore ahinya",
+            "literal": "It has covered itself, verily", 
+            "english": "Good evening",
+            "notes": "This is how to respond when greeted with 'oimore'."
+          },
+          {
+            "dholuo": "Iriyo nade?",
+            "literal": "How did you pass your day?",
+            "english": "How was your day?",
+            "notes": "This greeting is used in the evening."
+          },
+          {
+            "dholuo": "Ariyo maber",
+            "literal": "I passed my day well.", 
+            "english": "My day went well."
+          },
+          {
+            "dholuo": "Idhi nade?",
+            "literal": "You go how?", 
+            "english": "How are you doing? (or how is the going?)",
+            "notes": "This greeting can be used at any time of day. The word 'dhi' means 'to go'."
+          },
+          {
+            "dholuo": "Adhi maber",
+            "literal": "I go well", 
+            "english": "I'm doing good (or the going is good)"
+          },
+          {
+            "dholuo": "Intie",
+            "literal": "You are present?", 
+            "english": "How are you?",
+            "notes": "The verb 'tie' means 'to be present'. This greeting can be used any time of day"
+          },
+          {
+            "dholuo": "Antie",
+            "literal": "I am present", 
+            "english": "I am fine."
+          },
+          {
+            "dholuo": "Ingima?",
+            "literal": "You are healthy?", 
+            "english": "How are you?"
+          },
+          {
+            "dholuo": "Angima",
+            "literal": "I am healthy", 
+            "english": "I am fine."
+          },
+          {
+            "dholuo": "Ere wach?",
+            "literal": "Where is the news?", 
+            "english": "What's up?",
+            "notes": "'Ere' means 'where'. 'wach' means 'word' or 'news'. This person is asking, 'What's the word?' or 'What's up?'."
+          },
+          {
+            "dholuo": "Onge wach",
+            "literal": "There is no word", 
+            "english": "Nothing much",
+            "notes": "This is how to respond when greeted with 'oyaore'."
+          },
+          {
+            "dholuo": "Manyien?",
+            "literal": "what's new", 
+            "english": "What's new?",
+            "notes": ""
+          },
+          {
+            "dholuo": "Onge Manyien.",
+            "english": "Nothing is new.",
+            "notes": "You can also simply reply 'onge'."
+          },
+          {
+            "dholuo": "Ia kanye?",
+            "literal": "You come from where?", 
+            "english": "Where are you from?",
+            "notes": "The verb 'a' means 'to come from'. Luos like to build familiarity by asking where a person is from."
+          },
+          {
+            "dholuo": "Aa Seme.",
+            "english": "I come from Seme."
+          },
+          {
+            "dholuo": "Oriti.",
+            "literal": "May he (referring to God) protect you.", 
+            "english": "Goodbye.",
+            "notes": "The verb 'rito' means 'to protect'."
+          },
+          {
+            "dholuo": "Oriti ahinya",
+            "english": "Goodbye.",
+            "notes": "You respond to 'oriti' with 'oriti ahinya'."
+          }
+          
+      ],
+      "grammar_note": "Let's go over to the next section to see how these greetings play out in a conversation."
+    }
+  },
+  {
+    "type": "conversation",
+    "title": "💬 Conversation Practice",
+    "content": {
+      "dialogue": [
+        {
+          "speaker": "Yambo",
+          "speaker_type": "A",
+          "dholuo": "Oyaore japuonj.",
+          "literal": "Good morning, teacher.",
+          "english": "Good morning, teacher."
+        },
+        {
+          "speaker": "Akinyi",
+          "speaker_type": "B",
+          "dholuo": "Oyaore ahinya!",
+          "literal": "",
+          "english": "Good morning"
+        },
+        {
+            "speaker": "Yambo",
+            "speaker_type": "A",
+            "dholuo": "Idhi nade?",
+            "literal": "",
+            "english": "How are you?"
+          },
+          {
+            "speaker": "Akinyi",
+            "speaker_type": "B",
+            "dholuo": "Adhi maber, to in?",
+            "literal": "",
+            "english": "I am well, and you?."
+          },
+        {
+          "speaker": "Yambo", 
+          "speaker_type": "A",
+          "dholuo": "An bende adhi maber.",
+          "literal": "I also I'm doing well",
+          "english": "I'm doing well also."
+        },
+        {
+          "speaker": "Akinyi",
+          "speaker_type": "B", 
+          "dholuo": "Ere wach?",
+          "literal": "Where is the news?",
+          "english": "What's new?."
+        },
+        {
+          "speaker": "Yambo",
+          "speaker_type": "A",
+          "dholuo": "Wach onge.",
+          "literal": "",
+          "english": "There is no news."
+        },
+        {
+            "speaker": "Akinyi",
+            "speaker_type": "B", 
+            "dholuo": "Aya, oriti iwuoth maber.",
+            "literal": "",
+            "english": "Okay, goodbye, go well.."
+          },
+          {
+            "speaker": "Yambo",
+            "speaker_type": "A", 
+            "dholuo": "Oriti ahinya",
+            "literal": "",
+            "english": "Goodbye."
+          }
+      ]
+    }
+  },
+  {
+    "type": "vocabulary",
+    "title": "📚 Vocabulary from the Conversation",
+    "content": {
+      "words": [
+        {
+          "dholuo": "Nyathi",
+          "english": "A baby",
+          "type": "Noun"
+        },
+        {
+          "dholuo": "Wuotho", 
+          "english": "To walk",
+          "type": "Verb",
+          "notes": "'iwuoth maber' literally means, 'may you walk well.'."
+        },
+        {
+            "dholuo": "Ka", 
+            "english": "Here",
+            "type": "Adverb",
+            "notes": "Pronounced 'car'."
+          }
+      ]
+    }
+  },
+  {
+    "type": "practice",
+    "title": "🎯 Practice Exercises",
+    "content": {
+      "pronunciation": [
+        {
+          "dholuo": "Be",
+          "phonetic": "[bay]",
+          "tips": "Sounds like 'bay'",
+          "audio_file": "audio/be.mp3"
+        },
+        {
+          "dholuo": "Hero",
+          "phonetic": "[heh-raw]",
+          "tips": "Just like the english word 'in'",
+          "audio_file": "audio/hero.mp3"
+        },
+        {
+          "dholuo": "Giherou",
+          "phonetic": "[ghee-heh-raw-oo]",
+          "audio_file": "audio/giherou.mp3"
+        },
+        {
+          "dholuo": "Ang'eyo",
+          "phonetic": "[ah-ng-ay-yo]",
+          "audio_file": "audio/ang'eyo.mp3"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "How do you say 'I am eating' in dholuo?",
+          "options": ["Achiemo", "Ichiemo", "Ochiemo", "Wachiemo"],
+          "correct_answer": 1,
+          "explanation": "An is the first person singular pronoun meaning 'I'. You drop the 'n' before attaching it to the beginning of the verb to show the doer of the action."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "The verb 'moso' means 'to greet'. What does 'Amosou' mean?",
+          "options": ["You are greeting me.", "We are greeting each other.", "She is greeting him.", "I am greeting you all."],
+          "correct_answer": 4,
+          "explanation": "The 'A' at the front of the verb means 'I' and it indicates the doer of the action. The 'u' at the end means 'you (plural)' and indicates the person the action is being done to."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What does the word 'be' in dholuo mean?",
+          "options": ["to become", "also", "baby", "bae"],
+          "correct_answer": 2,
+          "explanation": "'Be' is the short form of the word 'Bende' which means 'also'."
+        },
+        {
+          "type": "multiple_choice", 
+          "question": "What pronoun means 'you' (plural) in Dholuo?",
+          "options": ["En", "Un", "In", "Wan"],
+          "correct_answer": 2,
+          "explanation": "'Un' is the plural pronoun for 'you' when talking to multiple people."
+        }
+      ]
+    }
+  }
+]
+}

@@ -56,6 +56,15 @@ function displaySection(sectionIndex) {
         case 'practice':
             html = generatePracticeHTML(section);
             break;
+        case 'prose_writing':
+            html = generateProseWritingHTML(section);
+            break;
+        case 'audio_comprehension':
+            html = generateAudioComprehensionHTML(section);
+            break;
+        case 'completion':
+            html = generateCompletionHTML(section);
+            break;
         default:
             html = '<div class="error">Unknown section type</div>';
     }
@@ -64,6 +73,12 @@ function displaySection(sectionIndex) {
     html += generateNavigation(sectionIndex);
     
     container.innerHTML = `<div class="lesson-card">${html}</div>`;
+    
+    if (section.type === 'prose_writing') {
+        setTimeout(setupProseWriting, 100);
+    } else if (section.type === 'audio_comprehension') {
+        setTimeout(setupAudioControls, 100);
+    }
 }
 
 // Generate Theory Section HTML
@@ -229,6 +244,195 @@ function generatePracticeHTML(section) {
     
     html += `</div>`;
     return html;
+}
+// New HTML generator functions to add:
+
+// Generate Prose Writing Section HTML
+function generateProseWritingHTML(section) {
+    const content = section.content;
+    let html = `<h2 class="section-title">${section.title}</h2>`;
+    
+    html += `
+        <div class="prose-writing-section">
+            <p>${content.instructions}</p>
+            
+            <div class="writing-prompts">
+                <h4>💡 Helpful prompts:</h4>
+                <ul>
+    `;
+    
+    content.prompts.forEach(prompt => {
+        html += `<li>${prompt}</li>`;
+    });
+    
+    html += `
+                </ul>
+            </div>
+            
+            <div class="example-box">
+                <strong>Example:</strong> ${content.example}
+            </div>
+            
+            <div class="writing-area">
+                <textarea id="proseText" placeholder="Write your introduction here..." 
+                         maxlength="${content.word_limit}" rows="4"></textarea>
+                <div class="word-count">
+                    <span id="wordCount">0</span>/${content.word_limit} characters
+                </div>
+            </div>
+            
+            ${content.sharing.enabled ? `
+                <div class="share-section">
+                    <button class="share-button" onclick="shareIntroduction()">
+                        📱 Share Your Introduction
+                    </button>
+                </div>
+            ` : ''}
+        </div>
+    `;
+    
+    return html;
+}
+
+// Generate Audio Comprehension Section HTML  
+function generateAudioComprehensionHTML(section) {
+    const content = section.content;
+    let html = `<h2 class="section-title">${section.title}</h2>`;
+    
+    html += `
+        <div class="audio-comprehension-section">
+            <p>${content.instructions}</p>
+            
+            <div class="audio-player">
+                <audio id="comprehensionAudio" controls>
+                    <source src="${content.audio_file}" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="replay-info">
+                    Replays remaining: <span id="replaysLeft">${content.max_replays}</span>
+                </div>
+            </div>
+            
+            <div class="audio-questions">
+    `;
+    
+    content.questions.forEach((question, index) => {
+        html += `
+            <div class="exercise-type">
+                <div class="exercise-title">Question ${index + 1}</div>
+                <div class="exercise-question">
+                    <p><strong>${question.question}</strong></p>
+                    <div class="options">
+        `;
+        
+        question.options.forEach((option, optionIndex) => {
+            const isCorrect = optionIndex === question.correct_answer;
+            html += `
+                <div class="option-button" onclick="selectOption(this, ${isCorrect}, '${question.explanation}')">
+                    ${option}
+                </div>
+            `;
+        });
+        
+        html += `
+                    </div>
+                    <div class="feedback hidden"></div>
+                </div>
+            </div>
+        `;
+    });
+    
+    html += `</div></div>`;
+    return html;
+}
+
+// Generate Completion Section HTML
+function generateCompletionHTML(section) {
+    const content = section.content;
+    let html = `<h2 class="section-title">${section.title}</h2>`;
+    
+    html += `
+        <div class="completion-section">
+            <div class="congratulations">
+                <h3>🎉 ${content.congratulations}</h3>
+            </div>
+            
+            <div class="chapter-summary">
+                <h4>📚 What you learned:</h4>
+                <p>${content.summary}</p>
+            </div>
+            
+            <div class="achievements">
+                <h4>🏆 Achievements unlocked:</h4>
+                <div class="achievement-list">
+    `;
+    
+    content.achievements.forEach(achievement => {
+        html += `<div class="achievement-badge">✨ ${achievement}</div>`;
+    });
+    
+    html += `
+                </div>
+            </div>
+            
+            <div class="next-steps">
+                <h4>🚀 What's next:</h4>
+                <p>${content.next_steps}</p>
+            </div>
+        </div>
+    `;
+    
+    return html;
+}
+
+// New utility functions to add:
+
+// Handle prose writing character count
+function setupProseWriting() {
+    const textarea = document.getElementById('proseText');
+    const wordCount = document.getElementById('wordCount');
+    
+    if (textarea && wordCount) {
+        textarea.addEventListener('input', function() {
+            wordCount.textContent = this.value.length;
+        });
+    }
+}
+
+// Handle social sharing
+function shareIntroduction() {
+    const text = document.getElementById('proseText').value;
+    if (!text.trim()) {
+        alert('Please write your introduction first!');
+        return;
+    }
+    
+    // Get the sharing template from the lesson data
+    const shareText = `Just wrote my first introduction in #Dholuo! 🇰🇪\n\n${text}\n\nLearning with LearnDholuo 📚`;
+    
+    // Simple sharing - copy to clipboard for now
+    navigator.clipboard.writeText(shareText).then(() => {
+        alert('Introduction copied to clipboard! You can now paste it on social media.');
+    });
+}
+
+// Handle audio replay limiting
+function setupAudioControls() {
+    const audio = document.getElementById('comprehensionAudio');
+    const replaysLeft = document.getElementById('replaysLeft');
+    let remainingReplays = parseInt(replaysLeft.textContent);
+    
+    if (audio && replaysLeft) {
+        audio.addEventListener('ended', function() {
+            remainingReplays--;
+            replaysLeft.textContent = remainingReplays;
+            
+            if (remainingReplays <= 0) {
+                audio.style.display = 'none';
+                replaysLeft.parentElement.innerHTML = '<em>No more replays available</em>';
+            }
+        });
+    }
 }
 
 // Helper function to highlight pronouns in text

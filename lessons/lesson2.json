@@ -125,8 +125,7 @@
               "english": "They love you as well.",
               "highlighted_pronoun": "Gin, gi, u"
             }
-          ],
-          "note": "Notice: The pronouns An (I), In (you), En (he/she), and Wan (we) are highlighted in the conversation. These are the building blocks for making sentences in Dholuo!"
+          ]
         }
       },
       {
@@ -161,13 +160,13 @@
             },
             {
               "dholuo": "Hero",
-              "phonetic": "[In]",
+              "phonetic": "[heh-raw]",
               "tips": "Just like the english word 'in'",
               "audio_file": "audio/hero.mp3"
             },
             {
               "dholuo": "Giherou",
-              "phonetic": "[ghee-heh-ro-oo]",
+              "phonetic": "[ghee-heh-raw-oo]",
               "audio_file": "audio/giherou.mp3"
             },
             {
@@ -187,7 +186,7 @@
             {
               "type": "multiple_choice",
               "question": "The verb 'moso' means 'to greet'. What does 'Amosou' mean?",
-              "options": ["You are greeting me.", "We are greeting each other.", "She is greeting him.", "I am greeting you."],
+              "options": ["You are greeting me.", "We are greeting each other.", "She is greeting him.", "I am greeting you all."],
               "correct_answer": 4,
               "explanation": "The 'A' at the front of the verb means 'I' and it indicates the doer of the action. The 'u' at the end means 'you (plural)' and indicates the person the action is being done to."
             },

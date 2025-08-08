@@ -1,0 +1,97 @@
+{
+    "id": 5,
+    "title": "Chapter 1 Review - Practice & Application",
+    "description": "Review and practice everything from Chapter 1",
+    "sections": [
+      {
+        "type": "practice",
+        "title": "🎯 Multiple Choice Review",
+        "content": {
+          "instructions": "Test your knowledge of pronouns, verb attachment, and adjectives from lessons 1-4.",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "How do you say 'We are going home' in Dholuo?",
+              "options": ["Adhi dala", "Wadhi dala", "Udhi dala", "Gidhi dala"],
+              "correct_answer": 2,
+              "explanation": "'Wan' (we) becomes 'Wa' when attached to verbs, plus 'dhi' (go) plus 'dala' (home)"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'nyathi maduong'' mean?",
+              "options": ["small baby", "big baby", "good baby", "bad baby"],
+              "correct_answer": 2,
+              "explanation": "'Nyathi' means baby, 'ma' is a linking particle, 'duong'' means big"
+            }
+          ]
+        }
+      },
+      {
+        "type": "prose_writing",
+        "title": "✍️ Introduce Yourself",
+        "content": {
+          "instructions": "Write a short introduction about yourself in Dholuo using what you've learned. Include your name, where you're going, and describe yourself or someone you know.",
+          "prompts": [
+            "Start with your name: 'An [your name]'",
+            "Say where you're going: 'Adhi...'", 
+            "Describe someone: 'En nyathi ma...' (He/she is a person who...)"
+          ],
+          "example": "An Jane. Adhi dala. En nyathi maber.",
+          "word_limit": 50,
+          "sharing": {
+            "enabled": true,
+            "template": "Just wrote my first introduction in #Dholuo! 🇰🇪\n\n{user_text}\n\nLearning with [YourAppName] 📚",
+            "platforms": ["twitter", "facebook", "whatsapp"]
+          }
+        }
+      },
+      {
+        "type": "audio_comprehension", 
+        "title": "👂 Listen & Understand",
+        "content": {
+          "instructions": "Listen to the audio clip and answer the questions below. You can replay the audio up to 3 times.",
+          "audio_file": "audio/chapter1_review.mp3",
+          "transcript": "An Otieno. Adhi limogi. Gin be gidhi dala. Nyathi maduong' otedo maber.",
+          "translation": "I am Otieno. I'm going to visit them. They are also going home. The big child cooked well.",
+          "max_replays": 3,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the speaker's name?",
+              "options": ["Akinyi", "Otieno", "Yambo", "Jane"],
+              "correct_answer": 2,
+              "explanation": "The speaker says 'An Otieno' meaning 'I am Otieno'"
+            },
+            {
+              "type": "multiple_choice", 
+              "question": "Where is the speaker going?",
+              "options": ["Home", "To visit them", "To cook", "Outside"],
+              "correct_answer": 2,
+              "explanation": "'Adhi limogi' means 'I'm going to visit them'"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who cooked well?",
+              "options": ["The speaker", "They", "The big child", "The small child"],
+              "correct_answer": 3,
+              "explanation": "'Nyathi maduong' otedo maber' means 'The big child cooked well'"
+            }
+          ]
+        }
+      },
+      {
+        "type": "completion",
+        "title": "🎉 Chapter 1 Complete!",
+        "content": {
+          "congratulations": "Excellent work! You've completed Chapter 1 and learned the fundamentals of Dholuo.",
+          "summary": "In this chapter you learned: basic pronouns (An, In, En, Wan, Un, Gin), how to attach pronouns to verbs, basic adjectives (ber, rach, duong', tin), and essential vocabulary for introductions.",
+          "next_steps": "Ready for Chapter 2? You'll learn about family members, possessive pronouns, and everyday activities!",
+          "achievements": [
+            "First Dholuo Introduction Written",
+            "Chapter 1 Master", 
+            "Audio Comprehension Novice"
+          ]
+        }
+      }
+    ]
+  }
