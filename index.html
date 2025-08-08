@@ -16,6 +16,31 @@
             </div>
             <p id="progressText">Lesson 1 of 4</p>
         </div>
+        <div class="navigation-bar">
+            <!-- Lesson Navigation -->
+            <div class="lesson-nav">
+                <h4>📚 Lessons</h4>
+                <div class="lesson-buttons" id="lessonButtons">
+                    <!-- These will be generated dynamically -->
+                </div>
+            </div>
+            
+            <!-- Section Navigation for Current Lesson -->
+            <div class="section-nav" id="sectionNav" style="display: none;">
+                <h4>📖 Sections</h4>
+                <div class="section-buttons" id="sectionButtons">
+                    <!-- These will be generated dynamically -->
+                </div>
+            </div>
+            
+            <!-- Quick Jump -->
+            <div class="quick-jump">
+                <label for="lessonSelect">Quick Jump:</label>
+                <select id="lessonSelect" onchange="jumpToLesson()">
+                    <option value="">Select Lesson...</option>
+                </select>
+            </div>
+        </div>
 
         <div id="lessonContainer"></div>
     <script src="app.js"></script>

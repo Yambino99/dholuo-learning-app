@@ -687,3 +687,114 @@
         width: 100%;
     }
 }
+/* ===== NAVIGATION BAR STYLES ===== */
+.navigation-bar {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.lesson-nav, .section-nav, .quick-jump {
+    margin-bottom: 15px;
+}
+
+.lesson-nav h4, .section-nav h4 {
+    color: #667eea;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.lesson-buttons, .section-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.lesson-btn, .section-btn {
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 20px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    min-width: 45px;
+    text-align: center;
+}
+
+.lesson-btn:hover, .section-btn:hover {
+    background: #e9ecef;
+    transform: translateY(-1px);
+}
+
+.lesson-btn.active {
+    background: #667eea;
+    color: white;
+    border-color: #667eea;
+}
+
+.section-btn.active {
+    background: #4CAF50;
+    color: white;
+    border-color: #4CAF50;
+}
+
+.lesson-btn.completed {
+    background: #e8f5e8;
+    border-color: #4CAF50;
+    color: #2e7d32;
+}
+
+.quick-jump {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+    border-top: 1px solid #e9ecef;
+}
+
+.quick-jump label {
+    font-weight: bold;
+    color: #667eea;
+}
+
+#lessonSelect {
+    padding: 8px 12px;
+    border: 2px solid #e9ecef;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+#lessonSelect:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .navigation-bar {
+        padding: 15px;
+    }
+    
+    .lesson-buttons, .section-buttons {
+        gap: 5px;
+    }
+    
+    .lesson-btn, .section-btn {
+        padding: 6px 10px;
+        font-size: 0.8em;
+        min-width: 35px;
+    }
+    
+    .quick-jump {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}

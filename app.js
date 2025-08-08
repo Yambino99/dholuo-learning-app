@@ -28,6 +28,7 @@ async function loadLesson(lessonId) {
         console.error('Error loading lesson:', error);
         displayError('Could not load lesson. Please try again.');
     }
+    updateNavigation();
 }
 
 // Display a specific section of the current lesson
@@ -79,6 +80,7 @@ function displaySection(sectionIndex) {
     } else if (section.type === 'audio_comprehension') {
         setTimeout(setupAudioControls, 100);
     }
+    updateNavigation();
 }
 
 // Generate Theory Section HTML
@@ -555,6 +557,119 @@ function displayError(message) {
 
 // Initialize the app when page loads
 document.addEventListener('DOMContentLoaded', function() {
+    initializeNavigation();
     // Load the first lesson by default
     loadLesson(1);
 });
+
+// Initialize navigation when page loads
+function initializeNavigation() {
+    generateLessonNavigation();
+    populateLessonSelect();
+}
+
+// Generate lesson navigation buttons
+function generateLessonNavigation() {
+    const lessonButtons = document.getElementById('lessonButtons');
+    const totalLessons = 30; // Your planned total
+    
+    let html = '';
+    for (let i = 1; i <= totalLessons; i++) {
+        const isActive = i === currentLessonNumber;
+        const isCompleted = i < currentLessonNumber;
+        
+        html += `
+            <button class="lesson-btn ${isActive ? 'active' : ''} ${isCompleted ? 'completed' : ''}" 
+                    onclick="jumpToLessonNumber(${i})" 
+                    title="Lesson ${i}">
+                ${i}
+            </button>
+        `;
+    }
+    
+    lessonButtons.innerHTML = html;
+}
+
+// Generate section navigation for current lesson
+function generateSectionNavigation() {
+    if (!currentLesson) return;
+    
+    const sectionNav = document.getElementById('sectionNav');
+    const sectionButtons = document.getElementById('sectionButtons');
+    
+    let html = '';
+    currentLesson.sections.forEach((section, index) => {
+        const isActive = index === currentSection;
+        const sectionTitle = getSectionTitle(section.type);
+        
+        html += `
+            <button class="section-btn ${isActive ? 'active' : ''}" 
+                    onclick="jumpToSection(${index})"
+                    title="${section.title}">
+                ${sectionTitle}
+            </button>
+        `;
+    });
+    
+    sectionButtons.innerHTML = html;
+    sectionNav.style.display = 'block';
+}
+
+// Get short title for section type
+function getSectionTitle(type) {
+    const titles = {
+        'theory': '📚',
+        'conversation': '💬',
+        'vocabulary': '📖',
+        'practice': '🎯',
+        'prose_writing': '✍️',
+        'audio_comprehension': '👂',
+        'completion': '🎉'
+    };
+    return titles[type] || '📄';
+}
+
+// Populate the quick jump dropdown
+function populateLessonSelect() {
+    const select = document.getElementById('lessonSelect');
+    let html = '<option value="">Select Lesson...</option>';
+    
+    for (let i = 1; i <= 30; i++) {
+        html += `<option value="${i}">Lesson ${i}</option>`;
+    }
+    
+    select.innerHTML = html;
+}
+
+// Navigation functions
+function jumpToLessonNumber(lessonNumber) {
+    currentLessonNumber = lessonNumber;
+    loadLesson(lessonNumber);
+}
+
+function jumpToSection(sectionIndex) {
+    currentSection = sectionIndex;
+    displaySection(sectionIndex);
+    updateProgress();
+    updateNavigation();
+}
+
+function jumpToLesson() {
+    const select = document.getElementById('lessonSelect');
+    const lessonNumber = parseInt(select.value);
+    
+    if (lessonNumber) {
+        jumpToLessonNumber(lessonNumber);
+        select.value = ''; // Reset dropdown
+    }
+}
+
+// Update navigation when lesson/section changes
+function updateNavigation() {
+    generateLessonNavigation();
+    generateSectionNavigation();
+    
+    // Update dropdown
+    const select = document.getElementById('lessonSelect');
+    select.value = '';
+}
