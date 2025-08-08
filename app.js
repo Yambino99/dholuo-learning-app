@@ -73,7 +73,7 @@ function displaySection(sectionIndex) {
     html += generateNavigation(sectionIndex);
     
     container.innerHTML = `<div class="lesson-card">${html}</div>`;
-    
+
     if (section.type === 'prose_writing') {
         setTimeout(setupProseWriting, 100);
     } else if (section.type === 'audio_comprehension') {
@@ -253,7 +253,7 @@ function generateProseWritingHTML(section) {
     let html = `<h2 class="section-title">${section.title}</h2>`;
     
     html += `
-        <div class="prose-writing-section">
+        <div class="prose-writing">
             <p>${content.instructions}</p>
             
             <div class="writing-prompts">
@@ -300,7 +300,7 @@ function generateAudioComprehensionHTML(section) {
     let html = `<h2 class="section-title">${section.title}</h2>`;
     
     html += `
-        <div class="audio-comprehension-section">
+        <div class="audio-comprehension">
             <p>${content.instructions}</p>
             
             <div class="audio-player">
@@ -352,7 +352,7 @@ function generateCompletionHTML(section) {
     let html = `<h2 class="section-title">${section.title}</h2>`;
     
     html += `
-        <div class="completion-section">
+        <div class="completion">
             <div class="congratulations">
                 <h3>🎉 ${content.congratulations}</h3>
             </div>
