@@ -22,25 +22,117 @@
               "options": ["small baby", "big baby", "good baby", "bad baby"],
               "correct_answer": 2,
               "explanation": "'Nyathi' means baby, 'ma' is a linking particle, 'duong'' means big"
-            }
+            },
+            {
+                "type": "multiple_choice",
+                "question": "How do you say 'I am going' in Dholuo?",
+                "options": ["An dhi", "Adhi", "Idhi", "Odhi"],
+                "correct_answer": 2,
+                "explanation": "Remove 'n' from 'An' (I) and attach 'A' to 'dhi' (go) to get 'Adhi'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What does 'Oherowa' mean?",
+                "options": ["He loves me", "He loves you", "He loves us", "He loves them"],
+                "correct_answer": 3,
+                "explanation": "'O' (he/she) + 'hero' (love) + 'wa' (us) = 'He/she loves us'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "Which pronoun becomes 'Gi' when attached to verbs?",
+                "options": ["En", "Un", "Gin", "Wan"],
+                "correct_answer": 3,
+                "explanation": "'Gin' (they) becomes 'Gi' when you remove the 'n' and attach it to verbs"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What does 'matin' mean in 'nyathi matin'?",
+                "options": ["big", "good", "small", "bad"],
+                "correct_answer": 3,
+                "explanation": "'Tin' means small or little, so 'nyathi matin' means 'small baby'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "How do you say 'You (plural) are cooking' in Dholuo?",
+                "options": ["Atedo", "Itedo", "Otedo", "Utedo"],
+                "correct_answer": 4,
+                "explanation": "'Un' (you plural) becomes 'U' when attached to 'tedo' (cook) = 'Utedo'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What does 'be' mean in Dholuo?",
+                "options": ["to be", "also", "baby", "good"],
+                "correct_answer": 2,
+                "explanation": "'Be' is the short form of 'bende' which means 'also' or 'as well'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "In 'Gin be giherou', what does 'u' represent?",
+                "options": ["me", "you (singular)", "you (plural)", "them"],
+                "correct_answer": 3,
+                "explanation": "'U' at the end of the verb shows the object is 'you (plural)' - from 'Un'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What is unique about the third person singular 'En' when used as a subject?",
+                "options": ["It becomes 'E'", "It becomes 'O'", "It stays 'En'", "It becomes 'G'"],
+                "correct_answer": 2,
+                "explanation": "When 'En' is the subject of a verb, it takes the form 'O', like in 'Odhi' (he/she goes)"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "How do you say 'here' in Dholuo?",
+                "options": ["kanye", "dala", "ka", "oko"],
+                "correct_answer": 3,
+                "explanation": "'Ka' means 'here', as in 'Matin ni ka' (the small one is here)"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What does 'Otedo maber' mean?",
+                "options": ["He cooked badly", "He cooked well", "He is cooking", "He will cook"],
+                "correct_answer": 2,
+                "explanation": "'O' (he/she) + 'tedo' (cooked) + 'maber' (well) = 'He/she cooked well'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "How do you respond to 'Oyaore' (good morning)?",
+                "options": ["Oyaore uru", "Oyaore ahinya", "Achiew maber", "Oimore"],
+                "correct_answer": 2,
+                "explanation": "When greeted with 'Oyaore', you respond with 'Oyaore ahinya' - the word 'ahinya' means 'verily' or 'a lot'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What does 'Ere wach?' literally mean?",
+                "options": ["How are you?", "Where is the news?", "What's happening?", "How's work?"],
+                "correct_answer": 2,
+                "explanation": "'Ere' means 'where' and 'wach' means 'word' or 'news', so literally it asks 'Where is the news?' but means 'What's up?'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "If someone asks 'Ichiew nade?', what are they asking?",
+                "options": ["How are you going?", "How did you wake up?", "How is your day?", "How did you sleep?"],
+                "correct_answer": 2,
+                "explanation": "'Chiew' means 'to wake up' and 'nade' means 'how', so 'Ichiew nade?' means 'How did you wake up?'"
+              }
           ]
         }
       },
       {
         "type": "prose_writing",
-        "title": "✍️ Introduce Yourself",
+        "title": "✍️ Greet the World",
         "content": {
-          "instructions": "Write a short introduction about yourself in Dholuo using what you've learned. Include your name, where you're going, and describe yourself or someone you know.",
+          "instructions": "Write a greeting to the world in Dholuo using what you've learned. Start by greeting everyone, ask how they are, share how you're doing, and say goodbye politely.",
           "prompts": [
-            "Start with your name: 'An [your name]'",
-            "Say where you're going: 'Adhi...'", 
-            "Describe someone: 'En nyathi ma...' (He/she is a person who...)"
+            "Start by greeting everyone: 'Amosou jopiny' (I greet you, people of the world)",
+            "Ask how they're doing: 'Udhi nade?' or 'Untie?' or 'Ungima?'", 
+            "Share how you're doing: 'An adhi maber' or 'An antie' or 'An angima'",
+            "Say goodbye: 'Oritu' or 'Oritu ahinya'"
           ],
-          "example": "An Jane. Adhi dala. En nyathi maber.",
-          "word_limit": 50,
+          "example": "Amosou jopiny! Udhi nade? An adhi maber. Oritu ahinya!",
+          "word_limit": 100,
           "sharing": {
             "enabled": true,
-            "template": "Just wrote my first introduction in #Dholuo! 🇰🇪\n\n{user_text}\n\nLearning with [YourAppName] 📚",
+            "template": "Just greeted the world in #Dholuo! 🇰🇪🌍\n\n{user_text}\n\nLearning with [YourAppName] 📚 #LearnDholuo",
             "platforms": ["twitter", "facebook", "whatsapp"]
           }
         }

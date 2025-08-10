@@ -5,18 +5,19 @@
     "sections": [
       {
         "type": "theory",
-        "title": "📚 Theory: Introduction to Adjectives",
+        "title": "📚 Theory: Introduction to Adjectives and Adverbs",
         "content": {
           "introduction": "Adjectives are words that describe nouns: beautiful or good (ber), tall (bor), sweet or tasty (mit), sad (sin). Adverbs are words that describe verbs: quickly (piyo), slowly (mos). In Dholuo, adjectives and adverbs can often be used interchangeably. Thus 'ber' means both 'good' and 'well' and 'piyo' means both 'fast' and 'quickly'.",
           "phrases": [
             {
                 "dholuo": "Rach",
                 "english": "Bad",
-                "notes": "Adjectives may take the particle 'ma' before the word they describe. Eg. 'Chiemo <strong>ma</strong>rach' which means 'bad food'."
+                "notes": "Adjectives may take the particle 'ma' before the word they describe. The particle 'ma' can be translated as 'which is', so 'Chiemo <strong>ma</strong>rach' means 'food which is bad'."
               },
               {
                 "dholuo": "Ber", 
-                "english": "Good"
+                "english": "Good",
+                "notes": "Example in sentence: 'Chiemo maber' which means 'food which is good'."
               },
               {
                 "dholuo": "Ng'eny", 
@@ -33,14 +34,26 @@
               },
               {
                 "dholuo": "Liet", 
-                "english": "Hot"
+                "english": "Hot",
+                "notes": "Example in sentence: 'Chai maliet' which means 'tea which is hot'."
               },
               {
                 "dholuo": "Ng'ich", 
-                "english": "Cold"
+                "english": "Cold",
+                "notes": "Example in sentence: 'Chai mang'ich' which means 'tea which is cold'."
+              },
+              {
+                "dholuo": "Piyo", 
+                "english": "Fast",
+                "notes": ""
+              },
+              {
+                "dholuo": "Mos", 
+                "english": "Slow",
+                "notes": ""
               }
           ],
-          "grammar_note": "Let's go over to the next section to see how these adjectives are used in a sentence."
+          "grammar_note": "Let's go over to the next section to see how these adjectives/adverbs are used in a sentence."
         }
       },
       {
@@ -80,14 +93,14 @@
               "speaker": "Yambo", 
               "speaker_type": "A",
               "dholuo": "To nyathi matin?",
-              "literal": "And + the baby + small?",
+              "literal": "And + baby + small?",
               "english": "And the small baby?"
             },
             {
               "speaker": "Akinyi",
               "speaker_type": "B", 
               "dholuo": "Matin ni ka",
-              "literal": "The small one + is + here ",
+              "literal": "Small + is + here ",
               "english": "The small baby is here."
             },
             {
@@ -138,56 +151,55 @@
         "content": {
           "pronunciation": [
             {
-              "dholuo": "Be",
-              "phonetic": "[bay]",
-              "tips": "Sounds like 'bay'",
-              "audio_file": "audio/be.mp3"
+              "dholuo": "Matin",
+              "phonetic": "[mah-teen]",
+              "tips": "",
+              "audio_file": "audio/matin.mp3"
             },
             {
-              "dholuo": "Hero",
-              "phonetic": "[heh-raw]",
-              "tips": "Just like the english word 'in'",
-              "audio_file": "audio/hero.mp3"
+              "dholuo": "Chiemo",
+              "phonetic": "[chi-eh-mow]",
+              "tips": "",
+              "audio_file": "audio/chiemo.mp3"
             },
             {
-              "dholuo": "Giherou",
-              "phonetic": "[ghee-heh-raw-oo]",
-              "audio_file": "audio/giherou.mp3"
+              "dholuo": "Mang'eny",
+              "phonetic": "[mah-ng'eh-ny]",
+              "tips": "The ng' sound is the one at the end of the word 'sing'. And the 'ny' sound is similar to the one in 'canyon'.",
+              "audio_file": "audio/mang'eny.mp3"
             },
             {
-              "dholuo": "Ang'eyo",
-              "phonetic": "[ah-ng-ay-yo]",
-              "audio_file": "audio/ang'eyo.mp3"
-            }
+              "dholuo": "Tedo",
+              "phonetic": "[tay-dough]",
+              "audio_file": "audio/tedo.mp3"
+            },
+            {
+                "dholuo": "mang'ich",
+                "phonetic": "[mag-ng'-each]",
+                "audio_file": "audio/mang'ich.mp3"
+              }
           ],
           "exercises": [
             {
               "type": "multiple_choice",
-              "question": "How do you say 'I am eating' in dholuo?",
-              "options": ["Achiemo", "Ichiemo", "Ochiemo", "Wachiemo"],
-              "correct_answer": 1,
-              "explanation": "An is the first person singular pronoun meaning 'I'. You drop the 'n' before attaching it to the beginning of the verb to show the doer of the action."
+              "question": "What is the opposite of the word 'ber' in dholuo?",
+              "options": ["ber ahinya", "mos", "rach", "piyo"],
+              "correct_answer": 3,
+              "explanation": "'ber' means 'good' so it's opposite is 'rach' which means 'bad'."
             },
             {
               "type": "multiple_choice",
-              "question": "The verb 'moso' means 'to greet'. What does 'Amosou' mean?",
-              "options": ["You are greeting me.", "We are greeting each other.", "She is greeting him.", "I am greeting you all."],
-              "correct_answer": 4,
+              "question": "The word 'pi' means 'water' in dholuo. What does 'pi maliet' mean?",
+              "options": ["bad water", "hot water", "drinking water", "cold water"],
+              "correct_answer": 2,
               "explanation": "The 'A' at the front of the verb means 'I' and it indicates the doer of the action. The 'u' at the end means 'you (plural)' and indicates the person the action is being done to."
             },
             {
               "type": "multiple_choice",
-              "question": "What does the word 'be' in dholuo mean?",
-              "options": ["to become", "also", "baby", "bae"],
-              "correct_answer": 2,
-              "explanation": "'Be' is the short form of the word 'Bende' which means 'also'."
-            },
-            {
-              "type": "multiple_choice", 
-              "question": "What pronoun means 'you' (plural) in Dholuo?",
-              "options": ["En", "Un", "In", "Wan"],
-              "correct_answer": 2,
-              "explanation": "'Un' is the plural pronoun for 'you' when talking to multiple people."
+              "question": "What is the opposite of 'piyo'?",
+              "options": ["liet", "ng'ich", "mos", "fast"],
+              "correct_answer": 3,
+              "explanation": "'piyo' means 'fast' and it's opposite is 'mos' which means 'slow'."
             }
           ]
         }

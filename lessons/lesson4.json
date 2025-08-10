@@ -1,7 +1,7 @@
 {
-"id": 3,
-"title": "Introduction to Adjectives and Adverbs",
-"description": "Learn the fundamental pronouns in Dholuo",
+"id": 4,
+"title": "Greetings",
+"description": "Learn how to greet others in Dholuo.",
 "sections": [
   {
     "type": "theory",
@@ -170,21 +170,21 @@
             "speaker": "Yambo",
             "speaker_type": "A",
             "dholuo": "Idhi nade?",
-            "literal": "",
+            "literal": "How do you go?",
             "english": "How are you?"
           },
           {
             "speaker": "Akinyi",
             "speaker_type": "B",
             "dholuo": "Adhi maber, to in?",
-            "literal": "",
+            "literal": "I go well, and you?",
             "english": "I am well, and you?."
           },
         {
           "speaker": "Yambo", 
           "speaker_type": "A",
           "dholuo": "An bende adhi maber.",
-          "literal": "I also I'm doing well",
+          "literal": "I also I go well.",
           "english": "I'm doing well also."
         },
         {
@@ -205,7 +205,7 @@
             "speaker": "Akinyi",
             "speaker_type": "B", 
             "dholuo": "Aya, oriti iwuoth maber.",
-            "literal": "",
+            "literal": "Okay, goodbye, walk well.",
             "english": "Okay, goodbye, go well.."
           },
           {
@@ -224,8 +224,8 @@
     "content": {
       "words": [
         {
-          "dholuo": "Nyathi",
-          "english": "A baby",
+          "dholuo": "Japuonj",
+          "english": "A teacher",
           "type": "Noun"
         },
         {
@@ -235,10 +235,10 @@
           "notes": "'iwuoth maber' literally means, 'may you walk well.'."
         },
         {
-            "dholuo": "Ka", 
-            "english": "Here",
-            "type": "Adverb",
-            "notes": "Pronounced 'car'."
+            "dholuo": "Onge", 
+            "english": "To be in a state of lacking.",
+            "type": "Verb",
+            "notes": ""
           }
       ]
     }
@@ -249,56 +249,61 @@
     "content": {
       "pronunciation": [
         {
-          "dholuo": "Be",
-          "phonetic": "[bay]",
-          "tips": "Sounds like 'bay'",
-          "audio_file": "audio/be.mp3"
+          "dholuo": "Onge",
+          "phonetic": "[oh-ngay]",
+          "tips": "Pronounced with a hard 'g'",
+          "audio_file": "audio/onge.mp3"
         },
         {
-          "dholuo": "Hero",
-          "phonetic": "[heh-raw]",
-          "tips": "Just like the english word 'in'",
-          "audio_file": "audio/hero.mp3"
+          "dholuo": "Japuonj",
+          "phonetic": "[jah-pwo-nj]",
+          "tips": "",
+          "audio_file": "audio/japuonj.mp3"
         },
         {
-          "dholuo": "Giherou",
-          "phonetic": "[ghee-heh-raw-oo]",
-          "audio_file": "audio/giherou.mp3"
+          "dholuo": "Oyaore",
+          "phonetic": "[oh-yah-oh-reh]",
+          "audio_file": "audio/oyaore.mp3"
         },
         {
-          "dholuo": "Ang'eyo",
-          "phonetic": "[ah-ng-ay-yo]",
-          "audio_file": "audio/ang'eyo.mp3"
-        }
+          "dholuo": "Oimore",
+          "phonetic": "[oh-ee-moh-reh]",
+          "audio_file": "audio/oimore.mp3"
+        },
+        {
+            "dholuo": "Ahinya",
+            "phonetic": "[ah-hee-nyah]",
+            "audio_file": "audio/ahinya.mp3"
+          }
       ],
       "exercises": [
         {
           "type": "multiple_choice",
-          "question": "How do you say 'I am eating' in dholuo?",
-          "options": ["Achiemo", "Ichiemo", "Ochiemo", "Wachiemo"],
+          "question": "What greeting would you use in the evening?",
+          "options": ["Oimore", "Oyaore", "Otimore", "Opuonjore"],
           "correct_answer": 1,
-          "explanation": "An is the first person singular pronoun meaning 'I'. You drop the 'n' before attaching it to the beginning of the verb to show the doer of the action."
+          "explanation": "'Oimore' is the greeting used in the evening. It literally means 'it has covered itself (the 'it' here being the sky)."
         },
         {
           "type": "multiple_choice",
           "question": "The verb 'moso' means 'to greet'. What does 'Amosou' mean?",
           "options": ["You are greeting me.", "We are greeting each other.", "She is greeting him.", "I am greeting you all."],
           "correct_answer": 4,
-          "explanation": "The 'A' at the front of the verb means 'I' and it indicates the doer of the action. The 'u' at the end means 'you (plural)' and indicates the person the action is being done to."
+          "explanation": "This is another common greeting. You can say 'Amosi' or 'Amosou' (depending on if you're talking to one person or many people) as a way of greeting."
         },
         {
           "type": "multiple_choice",
-          "question": "What does the word 'be' in dholuo mean?",
-          "options": ["to become", "also", "baby", "bae"],
-          "correct_answer": 2,
-          "explanation": "'Be' is the short form of the word 'Bende' which means 'also'."
+          "question": "What does 'oriti' mean?",
+          "options": ["goodbye", "good morning", "good evening", "good afternoon"],
+          "correct_answer": 1,
+          "explanation": "It's used to mean 'goodbye'."
         },
         {
           "type": "multiple_choice", 
-          "question": "What pronoun means 'you' (plural) in Dholuo?",
-          "options": ["En", "Un", "In", "Wan"],
+          "question": "How do you respond to 'oriti'?",
+          "options": ["Adhi maber", "Oriti ahinya", "Amosi", "Antie"],
           "correct_answer": 2,
-          "explanation": "'Un' is the plural pronoun for 'you' when talking to multiple people."
+          "explanation": ""
         }
       ]
     }
