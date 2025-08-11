@@ -1,0 +1,290 @@
+{
+    "id": 6,
+    "title": "Numbers",
+    "description": "Learn how to count in Dholuo.",
+    "sections": [
+      {
+        "type": "theory",
+        "title": "📚 Counting in Dholuo",
+        "content": {
+          "introduction": "Numbers are fairly straight forward.",
+          "phrases": [
+            {
+                "dholuo": "Achiel",
+                "literal": "",
+                "english": "One",
+                "notes": ""
+              },
+              {
+                "dholuo": "Ariyo",
+                "literal": "",
+                "english": "Two",
+                "notes": ""
+              },
+              {
+                "dholuo": "Adek",
+                "literal": "",
+                "english": "Three",
+                "notes": ""
+              },
+              {
+                "dholuo": "Ang'wen",
+                "literal": "",
+                "english": "Four",
+                "notes": ""
+              },
+              {
+                "dholuo": "Abich",
+                "literal": "",
+                "english": "Five",
+                "notes": ""
+              },
+              {
+                "dholuo": "Auchiel",
+                "literal": "",
+                "english": "Six",
+                "notes": ""
+              },
+              {
+                "dholuo": "Abirio",
+                "literal": "",
+                "english": "Seven",
+                "notes": ""
+              },
+              {
+                "dholuo": "Aboro",
+                "literal": "",
+                "english": "One",
+                "notes": ""
+              },
+              {
+                "dholuo": "Ochiko",
+                "literal": "",
+                "english": "Nine",
+                "notes": ""
+              },
+              {
+                "dholuo": "Apar",
+                "literal": "",
+                "english": "Ten",
+                "notes": ""
+              },
+              {
+                "dholuo": "Apar gi achiel",
+                "literal": "Ten plus one ",
+                "english": "Eleven",
+                "notes": "When a word ending in a vowel is followed by a word beginning with a vowel, the first vowel is dropped. So 'apar gi achiel' is pronounced 'apar gachiel'. The 'i' at the end is dropped."
+              },
+              {
+                "dholuo": "Apar gariyo",
+                "literal": "Ten plus two",
+                "english": "Twelve",
+                "notes": ""
+              },
+              {
+                "dholuo": "Apar gochiko",
+                "literal": "Ten plus nine",
+                "english": "Nineteen",
+                "notes": ""
+              },
+              {
+                "dholuo": "Piero ariyo",
+                "literal": "Two tens",
+                "english": "Twenty",
+                "notes": "Pronounced 'pier ariyo'. The 'o' is dropped"
+              },
+              {
+                "dholuo": "Piero Adek",
+                "literal": "Three tens",
+                "english": "Thirty",
+                "notes": ""
+              },
+              {
+                "dholuo": "Piero ochiko",
+                "literal": "",
+                "english": "One",
+                "notes": "Pronounced 'pier ochiko'. The 'o' is dropped"
+              },
+              {
+                "dholuo": "Mia achiel",
+                "literal": "", 
+                "english": "One hundred",
+                "notes": "The word 'mia' is a loan word from kiswahili."
+              },
+              {
+                "dholuo": "Mia ariyo",
+                "literal": "",
+                "english": "Two hundred",
+                "notes": ""
+              },
+              {
+                "dholuo": "Elfu achiel",
+                "literal": "",
+                "english": "One thousand",
+                "notes": "The word 'elfu' is a loan word from kiswahili."
+              },
+              {
+                "dholuo": "Elfu achiel gi mia achiel",
+                "literal": "One thousand with one hundred", 
+                "english": "One thousand one hundred",
+                "notes": ""
+              },
+              {
+                "dholuo": "Elfu achiel gi mia ariyo gi pier adek gi abich",
+                "literal": "",
+                "english": "One thousand, one hundred and thirty five",
+                "notes": ""
+              }
+              
+          ],
+          "introduction": "To indicate frequency, prefix 'di' to a number.",
+          "phrases": [
+            {
+                "dholuo": "Dichiel",
+                "english": "Once",
+                "notes": ""
+              },
+              {
+                "dholuo": "Diriyo",
+                "english": "Twice",
+                "notes": ""
+              },
+              {
+                "dholuo": "Didek",
+                "english": "Thrice",
+                "notes": ""
+              },
+              {
+                "dholuo": "Dibich",
+                "english": "Five times",
+                "notes": ""
+              }
+            ],
+          "grammar_note": "Let's go over a few examples of how these numbers may be used in a conversation."
+        }
+      },
+      {
+        "type": "conversation",
+        "title": "💬 Conversation Practice",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Gin ji adi?",
+              "literal": "They + people + how many?",
+              "english": "How many people are they?"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "Gin ji adek. Dhako achiel to gi chuo ariyo.",
+              "literal": "",
+              "english": "They are three people. Two women and one man."
+            },
+            {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "To gin gi nyithindo adi?",
+                "literal": "And + they + with + children + how many?",
+                "english": "And how many children do they have?"
+              },
+              {
+                "speaker": "Akinyi",
+                "speaker_type": "B",
+                "dholuo": "Gin gi nyithindo apar.",
+                "literal": "They + with + children + ten",
+                "english": "They have ten children."
+              },
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A", 
+              "dholuo": "Abiro tedo didek.",
+              "literal": "I will cook thrice.",
+              "english": "What's new?."
+            }
+          ]
+        }
+      },
+      {
+        "type": "vocabulary",
+        "title": "📚 Vocabulary from the Conversation",
+        "content": {
+          "words": [
+            {
+              "dholuo": "Dhako",
+              "english": "A woman",
+              "type": "Noun"
+            },
+            {
+              "dholuo": "Chuo", 
+              "english": "Men",
+              "type": "Noun",
+              "notes": "It is the plural of 'dichuo' which means 'a man'."
+            },
+            {
+                "dholuo": "Ji", 
+                "english": "People",
+                "type": "Noun",
+                "notes": ""
+              },
+              {
+                "dholuo": "Adi", 
+                "english": "How many?",
+                "type": "Adverb",
+                "notes": ""
+              }
+          ]
+        }
+      },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "pronunciation": [
+            {
+              "dholuo": "Ji",
+              "phonetic": "[Gee]",
+              "tips": "Like spelling out the letter 'G'",
+              "audio_file": "audio/ji.mp3"
+            },
+            {
+              "dholuo": "Adi",
+              "phonetic": "[Ah-deej]",
+              "tips": "",
+              "audio_file": "audio/adi.mp3"
+            },
+            {
+              "dholuo": "Nyithindo",
+              "phonetic": "[nyih-thih-ndo]",
+              "tips":"",
+              "audio_file": "audio/nyithindo.mp3"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the number 'mia abich gi piero ang'wen gabich",
+              "options": ["545", "554", "565", "5145"],
+              "correct_answer": 1,
+              "explanation": "'mia abich' = 500, 'piero ang'wen' = 40 + 'abich' = 5. Thus the whole thing together is 545"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'ogoya didek' mean?",
+              "options": ["He beat me thirty times.", "He beat me twice.", "He beat me yesterday.", "He beat me thrice."],
+              "correct_answer": 4,
+              "explanation": "The verb 'goyo' means 'to beat'.'Didek' means three times. 'Diriyo' would mean 'twice' and 'Di piero adek' would mean thirty times."
+            },
+            {
+                "type": "multiple_choice",
+                "question": "What is the number 'mia ariyo gi piero ariyo gariyo'?",
+                "options": ["2222", "2122", "242", "222."],
+                "correct_answer": 4,
+                "explanation": "'mia ariyo' = 200, 'piero ariyo' = 20, 'gariyo' = 'gi ariyo' = '+2'. Thus the whole thing adds up to '222'."
+              }
+          ]
+        }
+      }
+    ]
+    }

@@ -66,6 +66,9 @@ function displaySection(sectionIndex) {
         case 'completion':
             html = generateCompletionHTML(section);
             break;
+        case 'table':
+            html = generateTableHTML(section);
+            break;
         default:
             html = '<div class="error">Unknown section type</div>';
     }
@@ -672,4 +675,57 @@ function updateNavigation() {
     // Update dropdown
     const select = document.getElementById('lessonSelect');
     select.value = '';
+}
+function generateTableHTML(section) {
+    const content = section.content;
+    let html = `<h2 class="section-title">${section.title}</h2>`;
+    
+    html += `<div class="table-section">`;
+    
+    // Introduction text
+    if (content.introduction) {
+        html += `<p class="table-introduction">${content.introduction}</p>`;
+    }
+    
+    // Generate the table
+    html += `
+        <div class="table-container">
+            <table class="lesson-table">
+                <thead>
+                    <tr>
+    `;
+    
+    // Table headers
+    content.columns.forEach(column => {
+        html += `<th>${column}</th>`;
+    });
+    
+    html += `
+                    </tr>
+                </thead>
+                <tbody>
+    `;
+    
+    // Table rows
+    content.rows.forEach((row, rowIndex) => {
+        html += `<tr class="${rowIndex % 2 === 0 ? 'even' : 'odd'}">`;
+        row.forEach(cell => {
+            html += `<td>${cell}</td>`;
+        });
+        html += `</tr>`;
+    });
+    
+    html += `
+                </tbody>
+            </table>
+        </div>
+    `;
+    
+    // Grammar note
+    if (content.grammar_note) {
+        html += `<p class="table-note"><strong>Note:</strong> ${content.grammar_note}</p>`;
+    }
+    
+    html += `</div>`;
+    return html;
 }

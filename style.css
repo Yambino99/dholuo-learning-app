@@ -798,3 +798,121 @@
         gap: 8px;
     }
 }
+.table-section {
+    background: #f8f9ff;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px 0;
+    border-left: 5px solid #667eea;
+}
+
+.table-introduction {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.table-container {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    overflow-x: auto; /* Allows horizontal scrolling on mobile */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin: 20px 0;
+}
+
+.lesson-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1em;
+    min-width: 600px; /* Ensures table doesn't get too cramped */
+}
+
+.lesson-table thead th {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    font-weight: bold;
+    padding: 15px 12px;
+    text-align: left;
+    border: none;
+    font-size: 0.95em;
+}
+
+.lesson-table thead th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.lesson-table thead th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.lesson-table tbody td {
+    padding: 12px;
+    border-bottom: 1px solid #e9ecef;
+    vertical-align: top;
+    line-height: 1.4;
+}
+
+/* Alternating row colors */
+.lesson-table tbody tr.even td {
+    background-color: #f8f9fa;
+}
+
+.lesson-table tbody tr.odd td {
+    background-color: white;
+}
+
+/* Hover effect for rows */
+.lesson-table tbody tr:hover td {
+    background-color: #e8f0fe !important;
+    transition: background-color 0.2s ease;
+}
+
+/* Highlight Dholuo text (first and third columns for noun tables) */
+.lesson-table tbody td:nth-child(1),
+.lesson-table tbody td:nth-child(3) {
+    font-weight: bold;
+    color: #667eea;
+    font-size: 1.05em;
+}
+
+.table-note {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.95em;
+    color: #856404;
+}
+
+.table-note strong {
+    color: #667eea;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .table-section {
+        padding: 20px;
+    }
+    
+    .table-container {
+        padding: 10px;
+        margin: 15px 0;
+    }
+    
+    .lesson-table {
+        font-size: 0.9em;
+        min-width: 500px; /* Still maintains minimum width but smaller */
+    }
+    
+    .lesson-table thead th,
+    .lesson-table tbody td {
+        padding: 10px 8px;
+    }
+    
+    .table-introduction {
+        font-size: 0.95em;
+    }
+}
