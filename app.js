@@ -44,6 +44,7 @@ function displaySection(sectionIndex) {
     let html = '';
     
     // Generate HTML based on section type
+    console.log("Loading section type:", section.type);
     switch (section.type) {
         case 'theory':
             html = generateTheoryHTML(section);
