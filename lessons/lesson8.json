@@ -1,0 +1,162 @@
+{"id": 7,
+"title": "Nouns",
+"description": "Learn how to count in Dholuo.",
+"sections": [
+    {
+        "type": "theory",
+        "title": "📚 Nouns",
+        "content": {
+          "introduction": "The good news about nouns in Dholuo: there is no gender (like la mesa and el dia in Spanish), and there are no articles (like 'the', 'a', 'an'); the noun stands alone. But nouns can be tricky for a couple of reasons: the formation of the plural is very irregular, and a special noun construct form must be used in some cases. For now, let's look at some nouns and their plurals."
+          }
+        },
+    {
+        "type": "table",
+        "title": "📚 Nouns and Their Plurals", 
+        "content": {
+            "introduction": "Nouns ending in 'n' or 'n' followed by a vowel, form their plurals using 'nde':",
+            "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
+            "rows": [
+                ["San", "dish", "Sende", "dishes"],
+                ["Gweno", "chicken", "Gwende", "Chickens"],
+                ["Rabuon", "Sweet potato", "Rabuonde", "Sweet potatoes"],
+                ["Pien", "Skin (or Hide)", "Piende", "Hides"],
+                ["Pino", "Wasp", "Pinde", "Wasps"],
+                ["Sigana", "Story", "Sigende", "Stories"]
+              ],
+            "grammar_note": "There are a few exceptions to this rule. For example, the word 'Jachien' meaning 'a devil' has a double plural 'Jochiende'."
+            }
+          },
+          {
+            "type": "table",
+            "title": "📚 Nouns and Their Plurals", 
+            "content": {
+                "introduction": "Nouns ending in 'l' or 'l' followed by a vowel, also form their plurals using 'nde'",
+                "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
+                "rows": [
+                    ["Tielo", "Leg", "Tiende", "Legs"],
+                    ["Del", "Body", "Dende", "Bodies"],
+                    ["Dwol", "Voice", "Dwonde", "Voices"],
+                    ["Tol", "Rope", "Tonde", "Ropes"]
+                  ],
+                "grammar_note": ""
+                }
+              },
+              
+      {
+        "type": "conversation",
+        "title": "💬 Conversation Practice",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Gin ji adi?",
+              "literal": "They + people + how many?",
+              "english": "How many people are they?"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "Gin ji adek. Dhako achiel to gi chuo ariyo.",
+              "literal": "",
+              "english": "They are three people. Two women and one man."
+            },
+            {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "To gin gi nyithindo adi?",
+                "literal": "And + they + with + children + how many?",
+                "english": "And how many children do they have?"
+              },
+              {
+                "speaker": "Akinyi",
+                "speaker_type": "B",
+                "dholuo": "Gin gi nyithindo apar.",
+                "literal": "They + with + children + ten",
+                "english": "They have ten children."
+              },
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A", 
+              "dholuo": "Abiro tedo didek.",
+              "literal": "I will cook thrice.",
+              "english": "What's new?."
+            }
+          ]
+        }
+      },
+      {
+        "type": "vocabulary",
+        "title": "📚 Vocabulary from the Conversation",
+        "content": {
+          "words": [
+            {
+              "dholuo": "Dhako",
+              "english": "A woman",
+              "type": "Noun"
+            },
+            {
+              "dholuo": "Chuo", 
+              "english": "Men",
+              "type": "Noun",
+              "notes": "It is the plural of 'dichuo' which means 'a man'."
+            },
+            {
+                "dholuo": "Ji", 
+                "english": "People",
+                "type": "Noun",
+                "notes": ""
+              },
+              {
+                "dholuo": "Adi", 
+                "english": "How many?",
+                "type": "Adverb",
+                "notes": ""
+              }
+          ]
+        }
+      },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "pronunciation": [
+            {
+              "dholuo": "Ji",
+              "phonetic": "[Gee]",
+              "tips": "Like spelling out the letter 'G'",
+              "audio_file": "audio/ji.mp3"
+            },
+            {
+              "dholuo": "Adi",
+              "phonetic": "[Ah-deej]",
+              "tips": "",
+              "audio_file": "audio/adi.mp3"
+            },
+            {
+              "dholuo": "Nyithindo",
+              "phonetic": "[nyih-thih-ndo]",
+              "tips":"",
+              "audio_file": "audio/nyithindo.mp3"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the number 'mia abich gi piero ang'wen gabich",
+              "options": ["545", "554", "565", "5145"],
+              "correct_answer": 1,
+              "explanation": "'mia abich' = 500, 'piero ang'wen' = 40 + 'abich' = 5. Thus the whole thing together is 545"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'ogoya didek' mean?",
+              "options": ["He beat me thirty times.", "He beat me twice.", "He beat me yesterday.", "He beat me thrice."],
+              "correct_answer": 4,
+              "explanation": "The verb 'goyo' means 'to beat'.'Didek' means three times. 'Diriyo' would mean 'twice' and 'Di piero adek' would mean thirty times."
+            }
+          ]
+        }
+      }
+    ]
+    }

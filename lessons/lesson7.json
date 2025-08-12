@@ -4,98 +4,59 @@
 "sections": [
     {
         "type": "theory",
-        "title": "📚 Nouns",
+        "title": "📚 Use of the prefix 'ja' in dholuo.",
         "content": {
-          "introduction": "The good news about nouns in Dholuo: there is no gender (like la mesa and el dia in Spanish), and there are no articles (like 'the', 'a', 'an'); the noun stands alone. But nouns can be tricky for a couple of reasons: the formation of the plural is very irregular, and a special noun construct form must be used in some cases. For now, let's look at some nouns and their plurals."
+          "introduction": "In Dholuo, the prefix 'ja-' is used to indicate a person associated with or a person who does something. It's similar to using 'person of'"
           }
         },
     {
         "type": "table",
-        "title": "📚 Nouns and Their Plurals", 
+        "title": "📚 Use of 'ja' to indicate a person's origin.", 
         "content": {
-            "introduction": "Nouns ending in 'n' or 'n' followed by a vowel, form their plurals using 'nde':",
+            "introduction": "You can use the prefix 'ja' to indicate a person's origin. It changes to 'Jo' for its plural form.:",
             "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
             "rows": [
-                ["San", "dish", "Sende", "dishes"],
-                ["Gweno", "chicken", "Gwende", "Chickens"],
-                ["Rabuon", "Sweet potato", "Rabuonde", "Sweet potatoes"],
-                ["Pien", "Skin (or Hide)", "Piende", "Hides"],
-                ["Pino", "Wasp", "Pinde", "Wasps"],
-                ["Sigana", "Story", "Sigende", "Stories"]
+                ["Jaseme", "A person from a place called 'Seme'", "Joseme", "People from Seme"],
+                ["Jagem", "A person from a place called 'Gem'", "Jogem", "People from Gem"],
+                ["Jakenya", "A Kenyan", "Jokenya", "Kenyans"],
+                ["Jaamerica", "An American", "Joamerica", "Americans"],
+                ["Japiny", "A person of the world", "Jopiny", "People of the world."]
               ],
-            "grammar_note": "There are a few exceptions to this rule. For example, the word 'Jachien' meaning 'a devil' has a double plural 'Jochiende'."
+            "grammar_note": "When used to indicate citizenship/origin, the prefix 'ja' is used only for men. For women, the prefix 'nyar' meaning 'daughter of' is used. It changes to 'nyi' meaning 'daughters of'. So you would say 'nyar seme' and 'nyi seme' to describe women coming from Seme."
             }
           },
           {
             "type": "table",
             "title": "📚 Nouns and Their Plurals", 
             "content": {
-                "introduction": "Nouns ending in 'l' or 'l' followed by a vowel, also form their plurals using 'nde'",
+                "introduction": "You can also use the prefix 'ja' to indicate a person's profession",
                 "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
                 "rows": [
-                    ["Tielo", "Leg", "Tiende", "Legs"],
-                    ["Del", "Body", "Dende", "Bodies"],
-                    ["Dwol", "Voice", "Dwonde", "Voices"],
-                    ["Tol", "Rope", "Tonde", "Ropes"]
+                    ["Jalweny", "A soldier ('lweny' means 'war')", "Jolweny", "Soldiers"],
+                    ["Ja ohala", "A businessman ('ohala' means 'business'", "Jo ohala", "Businessmen"],
+                    ["Ja ng'ad bura", "A judge.", "Jo ng'ad bura", "Judges"],
+                    ["Jatelo", "A leader ('telo' is 'to lead'.", "Jotelo", "Leaders"],
+                    ["Jathieth", "A doctor ('thieth' is 'to cure'.", "Jothieth", "Doctors"],
+                    ["Jaot", "A spouse ('ot' means 'house'. So you're literally saying 'the person of my house' to refer to your spouse.", "Joot", "Spouses"]
                   ],
                 "grammar_note": ""
                 }
               },
-              {
-                "type": "table",
-                "title": "📚 Nouns and Their Plurals", 
-                "content": {
-                    "introduction": "Nouns ending in 'dh' followed by a vowel form their plurals using 'the'",
-                    "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-                    "rows": [
-                        ["Puodho", "Farm", "Puothe", "Farms"]
-                      ],
-                    "grammar_note": ""
-                    }
-                  },
-                {
-                    "type": "table",
-                    "title": "📚 Nouns and Their Plurals", 
-                    "content": {
-                        "introduction": "Nouns ending in 'y' followed by a vowel form their plurals using 'che'",
-                        "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-                        "rows": [
-                            ["Apuoyo", "Rabbit", "Apuoche", "Rabbits"],
-                            ["Oguyo", "Butterfly", "Oguche", "Butterflies"],
-                            ["Otoyo", "Hyena", "Otoche", "Hyenas"]
-                          ],
-                        "grammar_note": ""
-                        }
-                      },
-                      {
-                        "type": "table",
-                        "title": "📚 Nouns and Their Plurals", 
-                        "content": {
-                            "introduction": "Nouns ending in 'r', or 'r' followed by a vowel, also form their plurals using 'che'",
-                            "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-                            "rows": [
-                                ["Ndara", "Road", "Ndeche", "Rabbits"],
-                                ["Bur", "Hole", "Buche", "Holes"],
-                                ["Akuru", "Pigeon", "Akuche", "Piegons"],
-                                ["Odheru", "Basket", "Odheche", "Baskets"]
-                              ],
-                            "grammar_note": ""
-                            }
-                          },
-                          {
-                            "type": "table",
-                            "title": "📚 Nouns and Their Plurals", 
-                            "content": {
-                                "introduction": "Nouns ending in 'ch' form their plurals using 'ye'",
-                                "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-                                "rows": [
-                                    ["Wich", "Head", "Wiye", "Heads"],
-                                    ["Ich", "Stomach", "Iye", "Stomachs"],
-                                    ["Kwach", "Leopard", "Kweye", "Leopards"]
-                                  ],
-                                "grammar_note": "There are a few more noun groups based on how the plural is formed. We'll go over them in the next lesson."
-                                }
-                              },
+        {
+            "type": "table",
+            "title": "📚 Nouns and Their Plurals", 
+            "content": {
+                "introduction": "You can also use the prefix 'ja' to describe a person's characteristics",
+                "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
+                "rows": [
+                    ["Jarachar", "A white person ('rachar' meaning 'white')", "Jorochere", "White people. (Here 'ja' turns to 'jo' and 'rachar' turns to 'rochere' to make the plural form. It's a double plural."],
+                    ["Jarateng'", "A black person ('rateng'' meaning 'black'", "Jorotenge", "Black people. (Another double plural)"],
+                    ["Jarikni", "A fast/hurried person ('rikni' meaning 'to hurry'.", "Jorikni", "Hurried people."],
+                    ["Jasamwoyo", "A lazy person ('samwoyo' is 'laziness'.", "Josamwoyo", "Lazy people"]
+                  ],
+                "grammar_note": ""
+                }
+              },
               
       {
         "type": "conversation",
@@ -105,38 +66,59 @@
             {
               "speaker": "Yambo",
               "speaker_type": "A",
-              "dholuo": "Gin ji adi?",
-              "literal": "They + people + how many?",
-              "english": "How many people are they?"
+              "dholuo": "Idhi nade, nyar Seme?",
+              "literal": "",
+              "english": "How are you, daughter of Seme?"
             },
             {
               "speaker": "Akinyi",
               "speaker_type": "B",
-              "dholuo": "Gin ji adek. Dhako achiel to gi chuo ariyo.",
+              "dholuo": "Adhi maber. To in ia kanye?",
               "literal": "",
-              "english": "They are three people. Two women and one man."
+              "english": "I am fine. And where do you come from?"
             },
             {
                 "speaker": "Yambo",
                 "speaker_type": "A",
-                "dholuo": "To gin gi nyithindo adi?",
-                "literal": "And + they + with + children + how many?",
-                "english": "And how many children do they have?"
+                "dholuo": "Aa America.",
+                "literal": "",
+                "english": "I come from America."
+              },
+              {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "An ja New York.",
+                "literal": "",
+                "english": "I am from New York."
               },
               {
                 "speaker": "Akinyi",
                 "speaker_type": "B",
-                "dholuo": "Gin gi nyithindo apar.",
-                "literal": "They + with + children + ten",
-                "english": "They have ten children."
+                "dholuo": "Adier?",
+                "literal": "",
+                "english": "Truly?"
               },
             {
               "speaker": "Yambo",
               "speaker_type": "A", 
-              "dholuo": "Abiro tedo didek.",
-              "literal": "I will cook thrice.",
-              "english": "What's new?."
-            }
+              "dholuo": "Adier.",
+              "literal": "",
+              "english": "Truly."
+            },
+            {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "To itiyo tich mane?",
+                "literal": "And + you work + job + which?",
+                "english": "And what job do you work?"
+              },
+              {
+                "speaker": "Akinyi",
+                "speaker_type": "B",
+                "dholuo": "An jang'ad bura.",
+                "literal": "",
+                "english": "I am a judge."
+              }
           ]
         }
       },
@@ -146,27 +128,27 @@
         "content": {
           "words": [
             {
-              "dholuo": "Dhako",
-              "english": "A woman",
-              "type": "Noun"
+              "dholuo": "Tiyo",
+              "english": "To work",
+              "type": "Verb"
             },
             {
-              "dholuo": "Chuo", 
-              "english": "Men",
+              "dholuo": "Tich", 
+              "english": "Job",
               "type": "Noun",
-              "notes": "It is the plural of 'dichuo' which means 'a man'."
+              "notes": ""
             },
             {
-                "dholuo": "Ji", 
-                "english": "People",
-                "type": "Noun",
+                "dholuo": "Mane", 
+                "english": "Which",
+                "type": "Pronoun",
                 "notes": ""
               },
               {
-                "dholuo": "Adi", 
-                "english": "How many?",
+                "dholuo": "Adier", 
+                "english": "Truly?",
                 "type": "Adverb",
-                "notes": ""
+                "notes": "Used to express disbelief or shock or excitement when someone says something interesting/nice."
               }
           ]
         }
@@ -177,38 +159,51 @@
         "content": {
           "pronunciation": [
             {
-              "dholuo": "Ji",
-              "phonetic": "[Gee]",
-              "tips": "Like spelling out the letter 'G'",
-              "audio_file": "audio/ji.mp3"
-            },
-            {
-              "dholuo": "Adi",
-              "phonetic": "[Ah-deej]",
+              "dholuo": "Tiyo",
+              "phonetic": "[tea-yoh]",
               "tips": "",
-              "audio_file": "audio/adi.mp3"
+              "audio_file": "audio/tiyo.mp3"
             },
             {
-              "dholuo": "Nyithindo",
-              "phonetic": "[nyih-thih-ndo]",
+              "dholuo": "Adier",
+              "phonetic": "[Ah-dee-eh-rr]",
+              "tips": "",
+              "audio_file": "audio/adier.mp3"
+            },
+            {
+              "dholuo": "Tich",
+              "phonetic": "[teach]",
+              "tips":"pronounced like the word 'teach'",
+              "audio_file": "audio/tich.mp3"
+            },
+            {
+              "dholuo": "Jang'ad bura",
+              "phonetic": "[jah-ng'ah-d boo-rah]",
               "tips":"",
-              "audio_file": "audio/nyithindo.mp3"
+              "audio_file": "audio/jang'ad bura.mp3"
             }
           ],
           "exercises": [
             {
               "type": "multiple_choice",
-              "question": "What is the number 'mia abich gi piero ang'wen gabich",
-              "options": ["545", "554", "565", "5145"],
+              "question": "'Ohangla' is a genre of luo music. What would you call an Ohangla musician?",
+              "options": ["Ja ohangla", "Jamusic", "Jamusician", "Jamuziki ohangla"],
               "correct_answer": 1,
-              "explanation": "'mia abich' = 500, 'piero ang'wen' = 40 + 'abich' = 5. Thus the whole thing together is 545"
+              "explanation": "Add the prefix 'ja' to the word 'ohangla'."
             },
             {
               "type": "multiple_choice",
-              "question": "What does 'ogoya didek' mean?",
-              "options": ["He beat me thirty times.", "He beat me twice.", "He beat me yesterday.", "He beat me thrice."],
-              "correct_answer": 4,
-              "explanation": "The verb 'goyo' means 'to beat'.'Didek' means three times. 'Diriyo' would mean 'twice' and 'Di piero adek' would mean thirty times."
+              "question": "'Kwath' means 'to herd livestock'. What do you call a herder?",
+              "options": ["Jakwath.", "Jalivestock", "Jaherder.", "Jang'ombe."],
+              "correct_answer": 1,
+              "explanation": "Add the prefix 'ja' to the word 'kwath'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "If someone says to you: 'An nyar seme.'. What does this mean?",
+              "options": ["They have a daughter from Seme.", "They are a man from Seme", "They are a lady from Seme.", "They went to Seme."],
+              "correct_answer": 3,
+              "explanation": "'Nyar Seme' literally means 'daughter of Seme'."
             }
           ]
         }
