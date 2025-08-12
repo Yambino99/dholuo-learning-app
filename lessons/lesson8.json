@@ -1,6 +1,6 @@
-{"id": 7,
+{"id": 8,
 "title": "Nouns",
-"description": "Learn how to count in Dholuo.",
+"description": "Introduction to Nouns in Dholuo.",
 "sections": [
     {
         "type": "theory",
@@ -50,38 +50,42 @@
             {
               "speaker": "Yambo",
               "speaker_type": "A",
-              "dholuo": "Gin ji adi?",
-              "literal": "They + people + how many?",
-              "english": "How many people are they?"
+              "dholuo": "In gi tiende adi?",
+              "literal": "You + have + legs + how many?",
+              "english": "How many legs do you have?"
             },
             {
               "speaker": "Akinyi",
               "speaker_type": "B",
-              "dholuo": "Gin ji adek. Dhako achiel to gi chuo ariyo.",
-              "literal": "",
-              "english": "They are three people. Two women and one man."
+              "dholuo": "An gi tiende ang'wen",
+              "literal": "I + have + legs + four",
+              "english": "I have four legs"
             },
             {
                 "speaker": "Yambo",
                 "speaker_type": "A",
-                "dholuo": "To gin gi nyithindo adi?",
-                "literal": "And + they + with + children + how many?",
-                "english": "And how many children do they have?"
+                "dholuo": "Kara in diel?",
+                "literal": "So + you + goat?",
+                "english": "So you are a goat?"
               },
               {
                 "speaker": "Akinyi",
                 "speaker_type": "B",
-                "dholuo": "Gin gi nyithindo apar.",
-                "literal": "They + with + children + ten",
-                "english": "They have ten children."
+                "dholuo": "In gi tiende adi?",
+                "english": "How many legs do you have?"
               },
             {
               "speaker": "Yambo",
               "speaker_type": "A", 
-              "dholuo": "Abiro tedo didek.",
-              "literal": "I will cook thrice.",
-              "english": "What's new?."
-            }
+              "dholuo": "An gi tiende ariyo",
+              "english": "I have two legs"
+            },
+            {
+                "speaker": "Akinyi",
+                "speaker_type": "B",
+                "dholuo": "Kara in gweno?",
+                "english": "So you are a chicken?"
+              }
           ]
         }
       },
@@ -91,27 +95,20 @@
         "content": {
           "words": [
             {
-              "dholuo": "Dhako",
-              "english": "A woman",
+              "dholuo": "Diel",
+              "english": "A goat",
               "type": "Noun"
             },
             {
-              "dholuo": "Chuo", 
-              "english": "Men",
-              "type": "Noun",
-              "notes": "It is the plural of 'dichuo' which means 'a man'."
+              "dholuo": "Adi?", 
+              "english": "How many?",
+              "type": "Adverb"
             },
             {
-                "dholuo": "Ji", 
-                "english": "People",
-                "type": "Noun",
-                "notes": ""
-              },
-              {
-                "dholuo": "Adi", 
-                "english": "How many?",
-                "type": "Adverb",
-                "notes": ""
+                "dholuo": "Kara", 
+                "english": "So...",
+                "type": "Conjucntion",
+                "notes": "Used in the same way as 'It turns out...'"
               }
           ]
         }
@@ -122,16 +119,14 @@
         "content": {
           "pronunciation": [
             {
-              "dholuo": "Ji",
-              "phonetic": "[Gee]",
-              "tips": "Like spelling out the letter 'G'",
-              "audio_file": "audio/ji.mp3"
+              "dholuo": "Diel",
+              "phonetic": "[Dee-el]",
+              "audio_file": "audio/diel.mp3"
             },
             {
-              "dholuo": "Adi",
-              "phonetic": "[Ah-deej]",
-              "tips": "",
-              "audio_file": "audio/adi.mp3"
+              "dholuo": "Kara",
+              "phonetic": "[Kah-rah]",
+              "audio_file": "audio/kara.mp3"
             },
             {
               "dholuo": "Nyithindo",
@@ -143,17 +138,31 @@
           "exercises": [
             {
               "type": "multiple_choice",
-              "question": "What is the number 'mia abich gi piero ang'wen gabich",
-              "options": ["545", "554", "565", "5145"],
-              "correct_answer": 1,
-              "explanation": "'mia abich' = 500, 'piero ang'wen' = 40 + 'abich' = 5. Thus the whole thing together is 545"
+              "question": "What is the plural of 'sigana'",
+              "options": ["sigondna", "sigende", "sigalagala", "siganagana"],
+              "correct_answer": 2,
+              "explanation": "'sigana' means 'a story'. Since it ends with 'n' followed by the vowel 'a', it takes the 'nde' ending for it's plural form, thus: 'sigende'."
             },
             {
               "type": "multiple_choice",
-              "question": "What does 'ogoya didek' mean?",
-              "options": ["He beat me thirty times.", "He beat me twice.", "He beat me yesterday.", "He beat me thrice."],
+              "question": "What is the singular form of 'dende'?",
+              "options": ["Dela", "Delo", "Deli", "Del"],
               "correct_answer": 4,
-              "explanation": "The verb 'goyo' means 'to beat'.'Didek' means three times. 'Diriyo' would mean 'twice' and 'Di piero adek' would mean thirty times."
+              "explanation": "The word 'del' means 'body'. It's plural form is 'dende'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "The word 'rabolo' means 'banana'. What is its plural?",
+              "options": ["rabolobolo", "rabonde", "rabondo", "rabanana"],
+              "correct_answer": 2,
+              "explanation": "'Rabolo' ends with 'l' followed by the vowel 'o', so its plural takes the 'nde' ending, thus: 'rabonde'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following words is the odd one out?",
+              "options": ["san", "pien", "tol", "chiemo"],
+              "correct_answer": 4,
+              "explanation": "The word 'chiemo' is the odd one out because it doesn't end with an 'l' or 'n' followed by a vowel. So it's plural is derived differently. We'll see how soon."
             }
           ]
         }
