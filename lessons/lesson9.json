@@ -1,217 +1,221 @@
-{"id": 9,
-"title": "Nouns",
-"description": "Learn how to count in Dholuo.",
+{
+"id": 4,
+"title": "📚 Introducing Yourself",
+"description": "Learn how to introduce yourself in Dholuo.",
 "sections": [
-    {
-        "type": "theory",
-        "title": "📚 Nouns",
-        "content": {
-          "introduction": "The good news about nouns in Dholuo: there is no gender (like la mesa and el dia in Spanish), and there are no articles (like 'the', 'a', 'an'); the noun stands alone. But nouns can be tricky for a couple of reasons: the formation of the plural is very irregular, and a special noun construct form must be used in some cases. For now, let's look at some nouns and their plurals."
-          }
-        },
-    {
-        "type": "table",
-        "title": "📚 Nouns and Their Plurals", 
-        "content": {
-            "introduction": "Nouns ending in 'n' or 'n' followed by a vowel, form their plurals using 'nde':",
-            "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-            "rows": [
-                ["San", "dish", "Sende", "dishes"],
-                ["Gweno", "chicken", "Gwende", "Chickens"],
-                ["Rabuon", "Sweet potato", "Rabuonde", "Sweet potatoes"],
-                ["Pien", "Skin (or Hide)", "Piende", "Hides"],
-                ["Pino", "Wasp", "Pinde", "Wasps"],
-                ["Sigana", "Story", "Sigende", "Stories"]
-              ],
-            "grammar_note": "There are a few exceptions to this rule. For example, the word 'Jachien' meaning 'a devil' has a double plural 'Jochiende'."
-            }
+  {
+    "type": "theory",
+    "title": "📚 Introducing Yourself",
+    "content": {
+      "introduction": "When introducing yourself in dholuo, it is expected that you reveal your name, your occupation, and to say a little bit about where you come from.",
+      "phrases": [
+        {
+            "dholuo": "Nyingi nga?",
+            "literal": "Your name + who?",
+            "english": "What is your name?"
           },
           {
-            "type": "table",
-            "title": "📚 Nouns and Their Plurals", 
-            "content": {
-                "introduction": "Nouns ending in 'l' or 'l' followed by a vowel, also form their plurals using 'nde'",
-                "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-                "rows": [
-                    ["Tielo", "Leg", "Tiende", "Legs"],
-                    ["Del", "Body", "Dende", "Bodies"],
-                    ["Dwol", "Voice", "Dwonde", "Voices"],
-                    ["Tol", "Rope", "Tonde", "Ropes"]
-                  ],
-                "grammar_note": ""
-                }
-              },
-              {
-                "type": "table",
-                "title": "📚 Nouns and Their Plurals", 
-                "content": {
-                    "introduction": "Nouns ending in 'dh' followed by a vowel form their plurals using 'the'",
-                    "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-                    "rows": [
-                        ["Puodho", "Farm", "Puothe", "Farms"]
-                      ],
-                    "grammar_note": ""
-                    }
-                  },
-                {
-                    "type": "table",
-                    "title": "📚 Nouns and Their Plurals", 
-                    "content": {
-                        "introduction": "Nouns ending in 'y' followed by a vowel form their plurals using 'che'",
-                        "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-                        "rows": [
-                            ["Apuoyo", "Rabbit", "Apuoche", "Rabbits"],
-                            ["Oguyo", "Butterfly", "Oguche", "Butterflies"],
-                            ["Otoyo", "Hyena", "Otoche", "Hyenas"]
-                          ],
-                        "grammar_note": ""
-                        }
-                      },
-                      {
-                        "type": "table",
-                        "title": "📚 Nouns and Their Plurals", 
-                        "content": {
-                            "introduction": "Nouns ending in 'r', or 'r' followed by a vowel, also form their plurals using 'che'",
-                            "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-                            "rows": [
-                                ["Ndara", "Road", "Ndeche", "Rabbits"],
-                                ["Bur", "Hole", "Buche", "Holes"],
-                                ["Akuru", "Pigeon", "Akuche", "Piegons"],
-                                ["Odheru", "Basket", "Odheche", "Baskets"]
-                              ],
-                            "grammar_note": ""
-                            }
-                          },
-                          {
-                            "type": "table",
-                            "title": "📚 Nouns and Their Plurals", 
-                            "content": {
-                                "introduction": "Nouns ending in 'ch' form their plurals using 'ye'",
-                                "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-                                "rows": [
-                                    ["Wich", "Head", "Wiye", "Heads"],
-                                    ["Ich", "Stomach", "Iye", "Stomachs"],
-                                    ["Kwach", "Leopard", "Kweye", "Leopards"]
-                                  ],
-                                "grammar_note": "There are a few more noun groups based on how the plural is formed. We'll go over them in future lessons."
-                                }
-                              },
-              
-      {
-        "type": "conversation",
-        "title": "💬 Conversation Practice",
-        "content": {
-          "dialogue": [
-            {
-              "speaker": "Yambo",
-              "speaker_type": "A",
-              "dholuo": "Gin ji adi?",
-              "literal": "They + people + how many?",
-              "english": "How many people are they?"
-            },
-            {
-              "speaker": "Akinyi",
-              "speaker_type": "B",
-              "dholuo": "Gin ji adek. Dhako achiel to gi chuo ariyo.",
-              "literal": "",
-              "english": "They are three people. Two women and one man."
-            },
-            {
-                "speaker": "Yambo",
-                "speaker_type": "A",
-                "dholuo": "To gin gi nyithindo adi?",
-                "literal": "And + they + with + children + how many?",
-                "english": "And how many children do they have?"
-              },
-              {
-                "speaker": "Akinyi",
-                "speaker_type": "B",
-                "dholuo": "Gin gi nyithindo apar.",
-                "literal": "They + with + children + ten",
-                "english": "They have ten children."
-              },
-            {
-              "speaker": "Yambo",
-              "speaker_type": "A", 
-              "dholuo": "Abiro tedo didek.",
-              "literal": "I will cook thrice.",
-              "english": "What's new?."
-            }
-          ]
-        }
-      },
-      {
-        "type": "vocabulary",
-        "title": "📚 Vocabulary from the Conversation",
-        "content": {
-          "words": [
-            {
-              "dholuo": "Dhako",
-              "english": "A woman",
-              "type": "Noun"
-            },
-            {
-              "dholuo": "Chuo", 
-              "english": "Men",
-              "type": "Noun",
-              "notes": "It is the plural of 'dichuo' which means 'a man'."
-            },
-            {
-                "dholuo": "Ji", 
-                "english": "People",
-                "type": "Noun",
-                "notes": ""
-              },
-              {
-                "dholuo": "Adi", 
-                "english": "How many?",
-                "type": "Adverb",
-                "notes": ""
-              }
-          ]
-        }
-      },
-      {
-        "type": "practice",
-        "title": "🎯 Practice Exercises",
-        "content": {
-          "pronunciation": [
-            {
-              "dholuo": "Ji",
-              "phonetic": "[Gee]",
-              "tips": "Like spelling out the letter 'G'",
-              "audio_file": "audio/ji.mp3"
-            },
-            {
-              "dholuo": "Adi",
-              "phonetic": "[Ah-deej]",
-              "tips": "",
-              "audio_file": "audio/adi.mp3"
-            },
-            {
-              "dholuo": "Nyithindo",
-              "phonetic": "[nyih-thih-ndo]",
-              "tips":"",
-              "audio_file": "audio/nyithindo.mp3"
-            }
-          ],
-          "exercises": [
-            {
-              "type": "multiple_choice",
-              "question": "What is the number 'mia abich gi piero ang'wen gabich",
-              "options": ["545", "554", "565", "5145"],
-              "correct_answer": 1,
-              "explanation": "'mia abich' = 500, 'piero ang'wen' = 40 + 'abich' = 5. Thus the whole thing together is 545"
-            },
-            {
-              "type": "multiple_choice",
-              "question": "What does 'ogoya didek' mean?",
-              "options": ["He beat me thirty times.", "He beat me twice.", "He beat me yesterday.", "He beat me thrice."],
-              "correct_answer": 4,
-              "explanation": "The verb 'goyo' means 'to beat'.'Didek' means three times. 'Diriyo' would mean 'twice' and 'Di piero adek' would mean thirty times."
-            }
-          ]
-        }
-      }
-    ]
+            "dholuo": "Nyinga Atieno",
+            "literal": "My name + Atieno.", 
+            "english": "My name is Atieno.",
+            "notes": "This is how to respond when greeted with 'oyaore'. The word 'ahinya' means 'a lot' or 'verily'."
+          },
+          {
+            "dholuo": "Iluongani Atieno.",
+            "literal": "You call me + Atieno", 
+            "english": "You call me Atieno.",
+            "notes": "This is another way of saying your name. The verb 'luongo' is 'to call'."
+          },
+          {
+            "dholuo": "Iluongoni ng'a?",
+            "english": "What is your name?"
+          },
+          {
+            "dholuo": "Ia kanye?",
+            "literal": "You come from + where?", 
+            "english": "Where do you come from?"
+          },
+          {
+            "dholuo": "Aa Seme.",
+            "english": "I come from Seme"
+          },
+          {
+            "dholuo": "An jaseme/An nyaseme",
+            "literal": "I'm a man from Seme/I'm a daughter of Seme", 
+            "english": "I come from Seme.",
+            "notes": "It is common for Luos to introduce themselves based on the area that they come from."
+          },
+          {
+            "dholuo": "In wuod ng'a?",
+            "literal": "You + the son of + who?", 
+            "english": "Whose son are you?",
+            "notes": "It's also common for luos to introduce themselves based on who their parents or grandparents are. Tracing one's lineage was important to the social fabric."
+          },
+          {
+            "dholuo": "An wuod Adhiambo.",
+            "literal": "I + the son of + Adhiambo",
+            "english": "I'm the son of Adhiambo"
+          },
+          {
+            "dholuo": "In nyar ng'a?",
+            "literal": "You + the daughter of + who?", 
+            "english": "Whose daughter are you?"
+          },
+          {
+            "dholuo": "An nyar Opiyo",
+            "literal": "I + the daughter of + Opiyo", 
+            "english": "I'm the daughter of Opiyo",
+            "notes": "This greeting can be used at any time of day. The word 'dhi' means 'to go'."
+          },
+          {
+            "dholuo": "In nyakwar ng'a?",
+            "literal": "You + the grandchild of + who?", 
+            "english": "Whose grandchild are you?"
+          },
+          {
+            "dholuo": "An nyakwar Odongo",
+            "literal": "I + the grandchild of + Odongo.", 
+            "english": "I'm the grandchild of Odongo"
+          },
+          {
+            "dholuo": "Itiyo kanye?",
+            "literal": "You work + where?", 
+            "english": "Where do you work?"
+          },
+          {
+            "dholuo": "Atiyo Safaricom.",
+            "literal": "I work + Safaricom.", 
+            "english": "I work for Safaricom."
+          },
+          {
+            "dholuo": "In gi higni adi?",
+            "literal": "You + with + years+ how many?", 
+            "english": "How old are you?"
+          },
+          {
+            "dholuo": "An gi higni apar gariyo.",
+            "literal": "I + with + years + ten + plus two", 
+            "english": "I am twelve years old."
+          }
+          
+      ],
+      "grammar_note": "Let's go over to the next section to see how these greetings play out in a conversation."
     }
+  },
+
+  {
+    "type": "vocabulary",
+    "title": "📚 New Vocabulary",
+    "content": {
+      "words": [
+        {
+          "dholuo": "Nying",
+          "english": "A name",
+          "type": "Noun"
+        },
+        {
+          "dholuo": "Nyinga", 
+          "english": "My name",
+          "type": "Noun"
+        },
+        {
+            "dholuo": "Nyingi", 
+            "english": "Your name.",
+            "type": "Noun",
+            "notes": ""
+          },
+        {
+            "dholuo": "Wuod", 
+            "english": "Son",
+            "type": "Noun",
+            "notes": ""
+          },
+        {
+            "dholuo": "Nyar", 
+            "english": "Daughter",
+            "type": "Noun",
+            "notes": ""
+          },
+        {
+            "dholuo": "Nyakwar", 
+            "english": "Grandchild",
+            "type": "Noun",
+            "notes": ""
+          },
+        {
+            "dholuo": "Higni", 
+            "english": "Years",
+            "type": "Noun",
+            "notes": "It's the plural form of the word 'higa' which means 'a year'."
+          }
+      ]
+    }
+  },
+  {
+    "type": "practice",
+    "title": "🎯 Practice Exercises",
+    "content": {
+      "pronunciation": [
+        {
+          "dholuo": "Nyingi",
+          "phonetic": "[nyee-ngee]",
+          "tips": "Pronounced with the 'ny' sound like in 'canyon' and with a hard 'g'",
+          "audio_file": "audio/nyingi.mp3"
+        },
+        {
+          "dholuo": "Nyakwar",
+          "phonetic": "[nyah-kwar]",
+          "tips": "",
+          "audio_file": "audio/nyakwar.mp3"
+        },
+        {
+          "dholuo": "Wuod",
+          "phonetic": "[woe-d]",
+          "tips": "Like 'woe'",
+          "audio_file": "audio/wuod.mp3"
+        },
+        {
+          "dholuo": "Nyar",
+          "phonetic": "[nyah-r]",
+          "audio_file": "audio/nyar.mp3"
+        },
+        {
+            "dholuo": "Higni",
+            "phonetic": "[heeg-knee]",
+            "audio_file": "audio/higni.mp3"
+          }
+      ],
+      "exercises": [
+        {
+          "type": "multiple_choice",
+          "question": "Which of these is not a way to ask someone's name?",
+          "options": ["In nga?", "Iluongoni nga?", "Nyingi ng'a?", "Nembi ng'a?"],
+          "correct_answer": 4,
+          "explanation": "The first three options are different ways to ask someone who they are or what their name is."
+        },
+        {
+          "type": "multiple_choice",
+          "question": "What does 'In gi higni adi?' mean?",
+          "options": ["Where are you from?", "Where do you work?", "Whose son are you?", "How old are you?"],
+          "correct_answer": 4,
+          "explanation": "'In gi higni adi' literally means, 'how many years have you?'"
+        },
+        {
+          "type": "multiple_choice",
+          "question": "If someone says, 'An nyaseme.', which of these can you not conclude?",
+          "options": ["The speaker is a man", "The speaker is from Seme", "The speaker is a woman"],
+          "correct_answer": 1,
+          "explanation": "A man would say, 'An jaseme'."
+        },
+        {
+          "type": "multiple_choice", 
+          "question": "If someone says, 'An nyakwar Adhiambo', which of these can you not conclude?",
+          "options": ["The speaker is a woman", "The speaker is someone's grandchild", "The speaker has a grandparent calle Adhiambo"],
+          "correct_answer": 1,
+          "explanation": "'Nyakwar' is a gender-neutral term. It means 'grandchild of...'"
+        }
+      ]
+    }
+  }
+]
+}

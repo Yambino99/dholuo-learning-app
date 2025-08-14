@@ -1,0 +1,175 @@
+{
+    "id": 10,
+    "title": "Chapter 2 Review - Practice & Application",
+    "description": "Review and practice everything from Chapter 2",
+    "sections": [
+      {
+        "type": "practice",
+        "title": "🎯 Multiple Choice Review",
+        "content": {
+          "instructions": "Test your knowledge of numbers, nouns, use of the prefix 'ja' and introductions from lessons 6-9.",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "Translate this: 'Gin ji ang'wen'",
+              "options": ["They have four goats", "They are four people", "They are four cities", "I have four chicken"],
+              "correct_answer": 1,
+              "explanation": "'Gin' = 'They', 'Ji' = 'People', 'Ang'wen' = 'Four'"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What is the number 'Elfu mia achiel gi mia achiel gi piero aboro gochiko'",
+              "options": ["100,189", "110,189", "101,189", "111,189"],
+              "correct_answer": 1,
+              "explanation": "'Elfu mia achiel' = '100,000', 'mia achiel' = '100', 'piero aboro' = '80', 'gi ochiko' = '9'"
+            },
+            {
+                "type": "multiple_choice",
+                "question": "The word 'puro' means 'to farm'. What would you call a farmer?",
+                "options": ["japur", "jathieth", "jalweny", "jafarm"],
+                "correct_answer": 1,
+                "explanation": "Attach the prefix 'ja'."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What is the plural of 'jalweny'?",
+                "options": ["Jalwende", "Jolweny", "Jolwelni", "Jolwelo"],
+                "correct_answer": 2,
+                "explanation": "The prefix 'ja' turns into 'jo' to make the plural form."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What is the plural of the word 'thuol'? ('thuol' means 'a snake')",
+                "options": ["Thulni", "Thuolno", "Thuonde", "Jathuol"],
+                "correct_answer": 3,
+                "explanation": "It ends in 'l' so it's plural takes the 'nde' ending"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "The word 'gol' is a loan word from English meaning 'goal' as in a football match. How would you say '5 goals'?",
+                "options": ["Gol abich", "Gonde abich", "Gol mia abich", "Gonde ariyo"],
+                "correct_answer": 2,
+                "explanation": "'Gol' takes the 'nde' ending. 'Abich' means 'five'."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What is the meaning of 'ia kanye'?",
+                "options": ["I come from Kanye", "Where do you come from?", "Where do I come from?", "You come from Kanye."],
+                "correct_answer": 2,
+                "explanation": "'ia' = 'you come from', 'Kanye' = 'where'."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "Translate 'In nyakwar Mary?'",
+                "options": ["You are the grandchild of Mary?", "You are the daughter of Mary?", "Mary is your grandchild?", "Mary is your child?"],
+                "correct_answer": 1,
+                "explanation": "'In' = 'You', 'Nyakwar' = 'grandchild of'."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What do you call a citizen of Japan?",
+                "options": ["Ja japan", "Ja China", "Ja Japanese", "Ja Tokyo"],
+                "correct_answer": 1,
+                "explanation": "'Ja Japan' is someone from Japan."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What does the verb 'telo' mean?",
+                "options": ["To tell on someone", "To lead", "To teach", "To try"],
+                "correct_answer": 2,
+                "explanation": "It means 'to lead'. A leader would be called 'Jatelo'."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What is the meaning of the word 'del'?",
+                "options": ["Dish", "Banana", "Body", "Chicken"],
+                "correct_answer": 3,
+                "explanation": "It means body"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What is the plural of the word 'Rabuon'?",
+                "options": ["Potato", "Banana", "Goat", "Cow"],
+                "correct_answer": 2,
+                "explanation": "'O' (he/she) + 'tedo' (cooked) + 'maber' (well) = 'He/she cooked well'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What do you call a black person?",
+                "options": ["Jarachar", "Jaratong'", "Jarateng'", "Jarabulu"],
+                "correct_answer": 3,
+                "explanation": "'Rateng'' = 'Black'."
+              }
+          ]
+        }
+      },
+      {
+        "type": "prose_writing",
+        "title": "✍️ Introduce yourself to the World",
+        "content": {
+          "instructions": "Introduce yourself to the world in Dholuo using what you've learned. Start by sharing your name, where you come from, who your parents and grandparents are, and the work you do.",
+          "prompts": [
+            "Start by sharing your name: 'An iluoongani Otieno' (My name is Otieno)",
+            "Say where you come from: 'Aa Seme' (I come from Seme)",
+            "Mention your parents and/or grandparents: 'An wuod/nyar Peter' or 'An nyakwar Auma'", 
+            "Share what you do: 'An nyathi skul' (I am a student) or 'An jathieth' (I am a doctor)."
+          ],
+          "example": "An iluongani Otieno. Aa Seme. An nyar Peter to an nyakwar Auma. An nyathi skul.",
+          "word_limit": 100,
+          "sharing": {
+            "enabled": true,
+            "template": "Just introduced myself to the world in #Dholuo! 🇰🇪🌍\n\n{user_text}\n\nLearning with [YourAppName] 📚 #LearnDholuo",
+            "platforms": ["twitter", "facebook", "whatsapp"]
+          }
+        }
+      },
+      {
+        "type": "audio_comprehension", 
+        "title": "👂 Listen & Understand",
+        "content": {
+          "instructions": "Listen to the audio clip and answer the questions below. You can replay the audio up to 3 times.",
+          "audio_file": "audio/chapter1_review.mp3",
+          "transcript": "An Otieno. Adhi limogi. Gin be gidhi dala. Nyathi maduong' otedo maber.",
+          "translation": "I am Otieno. I'm going to visit them. They are also going home. The big child cooked well.",
+          "max_replays": 3,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the speaker's name?",
+              "options": ["Akinyi", "Otieno", "Yambo", "Jane"],
+              "correct_answer": 2,
+              "explanation": "The speaker says 'An Otieno' meaning 'I am Otieno'"
+            },
+            {
+              "type": "multiple_choice", 
+              "question": "Where is the speaker going?",
+              "options": ["Home", "To visit them", "To cook", "Outside"],
+              "correct_answer": 2,
+              "explanation": "'Adhi limogi' means 'I'm going to visit them'"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who cooked well?",
+              "options": ["The speaker", "They", "The big child", "The small child"],
+              "correct_answer": 3,
+              "explanation": "'Nyathi maduong' otedo maber' means 'The big child cooked well'"
+            }
+          ]
+        }
+      },
+      {
+        "type": "completion",
+        "title": "🎉 Chapter 2 Complete!",
+        "content": {
+          "congratulations": "Excellent work! You've completed Chapter 2 and are well on your way to speaking Dholuo like a native.",
+          "summary": "In this chapter you learned: how to count, how to form the plural of some nouns, and how to introduce yourself in Luo.",
+          "next_steps": "Ready for Chapter 3? You'll learn more about nouns, verbs, how to ask questions and how to describe your family.",
+          "achievements": [
+            "First Dholuo Introduction Written",
+            "Chapter 2 Master", 
+            "Audio Comprehension Apprentice"
+          ]
+        }
+      }
+    ]
+  }
