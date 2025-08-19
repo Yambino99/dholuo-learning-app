@@ -1,0 +1,243 @@
+{
+    "id": 2,
+    "title": "Verbs",
+    "description": "In dholuo, verbs are one of the most important parts of speech, for from them abstract nouns, adjectives and adverbs may be formed. Let's learn a little bit about Luo verbs.",
+    "sections": [
+      {
+        "type": "theory",
+        "title": "📚 Theory: The verb 'to be'.",
+        "content": {
+          "introduction": "There is no Dholuo equivalent of the verb 'to be'. Thus to say, 'The food is tasty', you would simply say, 'chiemo mit!', which is 'food tasty!'. To get around this, dholuo uses the verb 'tie' which means to be present. This verb is odd in that it takes the full pronouns instead of their derived prefixes (eg. 'antie' instead of 'atie'), and if there's an overt subject, it takes the form 'nitie'. The opposite of 'tie' is 'onge' which means 'to be lacking'.",
+          "phrases": [
+            {
+                "dholuo": "An + tie = Antie",
+                "literal": "I + present = I present",
+                "english": "I am present"
+              },
+            {
+                "dholuo": "In + tie = Intie",
+                "literal": "You + present = You present",
+                "english": "You are present"
+              },
+            {
+                "dholuo": "En + tie = Entie",
+                "literal": "He/She + present = You present",
+                "english": "He/She is present"
+              },
+            {
+                "dholuo": "Wan + tie = Wantie",
+                "literal": "We + present = You present",
+                "english": "We are present"
+              },
+            {
+                "dholuo": "Un + tie = Untie",
+                "literal": "You (plural) + present = You present",
+                "english": "You (plural) are present"
+              },
+            {
+                "dholuo": "Gin + tie = Antie",
+                "literal": "I + present = I present",
+                "english": "I am present",
+                "notes": "Remove 'n' from 'An', attach 'A' to 'dhi'"
+              },
+            {
+                "dholuo": "Chiemo nitie.",
+                "literal": "Food + present = You present",
+                "english": "There is food.",
+                "notes": "Since there's an overt object, the verb takes the form 'nitie'."
+              },
+            {
+                "dholuo": "Mary nitie",
+                "literal": "Mary is present",
+                "english": "Mary is present",
+                "notes": "Since 'Mary is called by name, the verb takes the form 'nitie'."
+              },
+            {
+                "dholuo": "Aonge",
+                "literal": "I + not present",
+                "english": "I am not here.",
+                "notes": "The pronoun suffixes are used instead of the full pronouns."
+              },
+            {
+                "dholuo": "Mary onge",
+                "literal": "Mary + not present",
+                "english": "Mary is not present"
+              },
+             {
+                "dholuo": "Chiemo onge",
+                "literal": "Food + not present",
+                "english": "There is no food"
+              }
+          ]
+        }
+      },
+      {
+        "type": "theory",
+        "title": "📚 Theory: To Have",
+        "content": {
+          "introduction": "The words 'gi' and 'kod' are used to express the verb 'to have'. They literally mean 'with'. The word 'kod' is interesting because it can be followed by a pronoun suffix. For example, you can say, 'Abiro kode' which means 'I am coming with him/her', but you can't say 'Abiro gi en'.",
+          "phrases": [
+            {
+                "dholuo": "An gi chiemo",
+                "literal": "I + with + food",
+                "english": "I have food"
+              },
+            {
+                "dholuo": "En gi pesa",
+                "literal": "He/She + with + money",
+                "english": "He/She has money"
+              },
+              {
+                "dholuo": "Wan gi guok", 
+                "literal": "We + with + dog",
+                "english": "We have a dog"
+              },
+              {
+                "dholuo": "Ochieng' nigi nyithino.",
+                "literal": "Ochieng' + with + children",
+                "english": "Ochieng' has children.",
+                "notes": "When the subject is overt (eg. 'the dog', 'the policeman', or 'Ochieng' but not 'I' or 'We' or 'You', then the copula 'ni' is added before 'gi' like in the example above."
+              },
+              {
+                "dholuo": "John nigi kalam",
+                "literal": "John + with + pencil",
+                "english": "John has children.",
+                "notes": "When the subject is overt (eg. 'the dog', 'the policeman', or 'Ochieng' but not 'I' or 'We' or 'You', then the copula 'ni' is added before 'gi' like in the example above."
+              },
+              {
+                "dholuo": "En kod ot",
+                "literal": "He/She + with + house",
+                "english": "He/She has a house"
+              },
+              {
+                "dholuo": "Gibiro kodwa",
+                "literal": "They come + with us.",
+                "english": "They come with us."
+              }
+          ]
+        }
+      },
+      {
+        "type": "conversation",
+        "title": "💬 Conversation Practice",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Ikelo ango?",
+              "literal": "You bring + what?",
+              "english": "What have you brought?"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "Akelo rabuon gi gweno.",
+              "literal": "I bring + sweet potatoes + with + chicken",
+              "english": "I've brought sweet potatoes with chicken"
+            },
+            {
+              "speaker": "Yambo", 
+              "speaker_type": "A",
+              "dholuo": "Antie gi mo",
+              "literal": "I am present + with + oil.",
+              "english": "I have oil"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B", 
+              "dholuo": "Ibiro chielo chiemo mamit",
+              "literal": "You will + fry + food + tastily",
+              "english": "You will fry the food tastily"
+            },
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Ee, abiro chiemo gi owada.",
+              "literal": "Yes + i will + eat + with + my relative.",
+              "english": "Yes, I will eat with my relative."
+            }
+          ]
+        }
+      },
+      {
+        "type": "vocabulary",
+        "title": "📚 Vocabulary from the Conversation",
+        "content": {
+          "words": [
+            {
+              "dholuo": "Ikelo",
+              "english": "You bring",
+              "type": "Verb"
+            },
+            {
+              "dholuo": "Mo", 
+              "english": "Oil",
+              "type": "Noun"
+            },
+            {
+              "dholuo": "Owada", 
+              "english": "My relative",
+              "type": "Noun",
+              "notes": "Could be used to refer to a sibling or cousin."
+            }
+          ]
+        }
+      },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "pronunciation": [
+            {
+              "dholuo": "Ikelo",
+              "phonetic": "[ee-keh-low]",
+              "tips": "sounds like sounding out the letter 'E' and then the letter 'K' followed by the english word 'low'",
+              "audio_file": "audio/ikelo.mp3"
+            },
+            {
+              "dholuo": "Mo",
+              "phonetic": "[moh]",
+              "tips": "Just like the english word 'more'",
+              "audio_file": "audio/mo.mp3"
+            },
+            {
+              "dholuo": "Owada",
+              "phonetic": "[oh-wah-dah]",
+              "audio_file": "audio/owada.mp3"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "How do you say 'Sam is present' in dholuo?",
+              "options": ["Sam entie", "Sam nitie", "Sam onge", "Sam oonge"],
+              "correct_answer": 2,
+              "explanation": "Since the object is mentioned by name, you use 'nitie'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do you say 'Sam is not present' in dholuo?",
+              "options": ["Sam onge.", "Sam nitie.", "Sam oonge", "Sam enonge."],
+              "correct_answer": 1,
+              "explanation": "Use the verb 'onge' to mean 'not present'. Since the object is mentioned by name, the pronoun suffixes are not used. If Sam's name wasn't mentioned, it would be okay to simply say, 'Oonge' meaning 'he is not present'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "How do you say 'Sam has a teacher' in dholuo?",
+              "options": ["Sam nigi japuonj", "Sam en gi japuonj", "Sam gi japuonj", "Sam nitie japuonj"],
+              "correct_answer": 1,
+              "explanation": "Again, 'nigi' is used since the object is mentioned by name. The word 'japuonj' means teacher. It's derived from the word 'puonjo' which means 'to teach'."
+            },
+            {
+              "type": "multiple_choice", 
+              "question": "What does 'nyakwara nitie' mean?",
+              "options": ["Is my grandchild present?", "My grandchild is absent", "I have a grandchild", "I am your grandchild"],
+              "correct_answer": 1,
+              "explanation": "'Nyakwara' means 'my grandchild'."
+            }
+          ]
+        }
+      }
+    ]
+}

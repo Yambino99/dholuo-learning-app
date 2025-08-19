@@ -1,0 +1,93 @@
+{
+    "id": 13,
+    "title": "The Luo naming system",
+    "description": "Lets learn about luo names!",
+    "sections": [
+      {
+        "type": "theory",
+        "title": "📚 Theory: Luo names.",
+        "content": {
+          "introduction": "The Luo often name their children based on the circumstances of their birth. This can include the time of day that the child was born, the season of the year, or even the weather at the time of birth. Boys names usually start with 'O' and girls names start with 'A' but its very common to have a boy named after a female relative, in which case their name would start with 'A'. Similarly, girls could be named after a male relative in which case their names would start with 'O'. It is believed that a deceased relative will visit the mother in a dream, and the child will be named after that deceased relative."
+      }},
+      {
+                "type": "table",
+                "title": "📚 Luo Names And Their Meanings", 
+                "content": {
+                    "introduction": "Luo names according to the time the child was born",
+                    "columns": ["Luo Name (Male)", "Luo Name (Female)", "Meaning", "Note"],
+                    "rows": [
+                        ["Omondi", "Amondi", "Child born in the morning", "Derived from the verb 'mondo' which means 'to wake up really early in the morning"],
+                        ["Okinyi", "Akinyi", "Child born in the morning", "Equivalent of the name Omondi/Amondi. It's derived from the word 'okinyi' which means 'the morning'"],
+                        ["Odhiambo", "Adhiambo", "Child born in the evening.", "Derived from the word 'odhiambo' which means 'evening'"],
+                        ["Otieno", "Atieno", "Child born at night", "Derived from the word 'otieno' which menas 'night'."]
+                      ]
+                    }
+                  },
+        {
+                "type": "table",
+                "title": "📚 Luo Names And Their Meanings", 
+                "content": {
+                    "introduction": "Luo names according to the circumstances of the child's birth",
+                    "columns": ["Luo Name (Male)", "Luo Name (Female)", "Meaning", "Note"],
+                    "rows": [
+                        ["Okeyo", "Akeyo", "Child born during the harvesting season", ""],
+                        ["Odoyo", "Adoyo", "Child born during the weeding season", "Derived from the word 'doyo' which means 'to weed'."],
+                        ["Okech", "Akech", "Child born during a famine.", "Derived from the word 'kech' which means 'hunger'"],
+                        ["Olweny", "Alweny", "Child born during a war", "Derived from the word 'lweny' which menas 'war'."],
+                        ["Ochieng'", "Achieng'", "Child born when the sun is shining", "Derived from the word 'chieng'' which menas 'the sun'."],
+                        ["Okoth", "Akoth", "Child born during the rain", "Derived from the word 'koth' which menas 'rain'."],
+                        ["Obiero", "Abiero", "Child born and the placenta remains insdie its mothers womb", ""]
+                      ]
+                    }
+                  },
+        {
+                "type": "table",
+                "title": "📚 Luo Names And Their Meanings", 
+                "content": {
+                    "introduction": "Luo names according to the place of birth",
+                    "columns": ["Luo Name (Male)", "Luo Name (Female)", "Meaning", "Note"],
+                    "rows": [
+                        ["Ogot", "Agot", "Child born on a mountain", "Derived from the word 'got' which means 'hill' or 'mountain'."],
+                        ["Oyoo", "Ayoo", "Child born on the road", "Derived from the word 'yoo' which means 'road'."],
+                        ["Ooko", "Aoko", "Child born outside the homestead.", "Derived from the word 'oko' which means 'outside'"]
+                      ]
+                    }
+                  },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What do you call a female child born during weeding season?",
+              "options": ["Odoyo", "Atieno", "Amondi", "Adoyo"],
+              "correct_answer": 4,
+              "explanation": "From the word 'doyo' which means 'to weed'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Which of these is not a boy's name?",
+              "options": ["Omondi.", "Okinyi.", "Achieng", "Odhiambo"],
+              "correct_answer": 3,
+              "explanation": "Boys' names start with 'O'. Girls' names start with 'A'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What do you call a child who is born by the wayside?",
+              "options": ["Oyoo", "Ochieng'", "Odhis", "Otis"],
+              "correct_answer": 1,
+              "explanation": "From the word 'yoo' which means 'the road'."
+            },
+            {
+              "type": "multiple_choice", 
+              "question": "What were the circumstances of Akech's birth?",
+              "options": ["She was born during a time of war", "She was born on a mountain side", "She was born during a time of famine", "She was born in the rain"],
+              "correct_answer": 3,
+              "explanation": "The word 'kech' means 'hunger'."
+            }
+          ]
+        }
+      }
+    ]
+}

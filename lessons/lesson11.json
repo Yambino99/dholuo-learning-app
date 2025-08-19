@@ -1,46 +1,14 @@
 {"id": 11,
 "title": "Nouns",
-"description": "Learn how to count in Dholuo.",
+"description": "More on nouns.",
 "sections": [
     {
         "type": "theory",
         "title": "📚 Nouns",
         "content": {
-          "introduction": "The good news about nouns in Dholuo: there is no gender (like la mesa and el dia in Spanish), and there are no articles (like 'the', 'a', 'an'); the noun stands alone. But nouns can be tricky for a couple of reasons: the formation of the plural is very irregular, and a special noun construct form must be used in some cases. For now, let's look at some nouns and their plurals."
+          "introduction": "Let's look at some more noun groups in dholuo."
           }
         },
-    {
-        "type": "table",
-        "title": "📚 Nouns and Their Plurals", 
-        "content": {
-            "introduction": "Nouns ending in 'n' or 'n' followed by a vowel, form their plurals using 'nde':",
-            "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-            "rows": [
-                ["San", "dish", "Sende", "dishes"],
-                ["Gweno", "chicken", "Gwende", "Chickens"],
-                ["Rabuon", "Sweet potato", "Rabuonde", "Sweet potatoes"],
-                ["Pien", "Skin (or Hide)", "Piende", "Hides"],
-                ["Pino", "Wasp", "Pinde", "Wasps"],
-                ["Sigana", "Story", "Sigende", "Stories"]
-              ],
-            "grammar_note": "There are a few exceptions to this rule. For example, the word 'Jachien' meaning 'a devil' has a double plural 'Jochiende'."
-            }
-          },
-          {
-            "type": "table",
-            "title": "📚 Nouns and Their Plurals", 
-            "content": {
-                "introduction": "Nouns ending in 'l' or 'l' followed by a vowel, also form their plurals using 'nde'",
-                "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
-                "rows": [
-                    ["Tielo", "Leg", "Tiende", "Legs"],
-                    ["Del", "Body", "Dende", "Bodies"],
-                    ["Dwol", "Voice", "Dwonde", "Voices"],
-                    ["Tol", "Rope", "Tonde", "Ropes"]
-                  ],
-                "grammar_note": ""
-                }
-              },
               {
                 "type": "table",
                 "title": "📚 Nouns and Their Plurals", 
@@ -48,9 +16,10 @@
                     "introduction": "Nouns ending in 'dh' followed by a vowel form their plurals using 'the'",
                     "columns": ["Dholuo (Singular)", "English (Singular)", "Dholuo (Plural)", "English (Plural)"],
                     "rows": [
-                        ["Puodho", "Farm", "Puothe", "Farms"]
+                        ["Puodho", "Farm", "Puothe", "Farms"],
+                        ["Budho", "Pumpkin", "Buthe", "Pumpkins"]
                       ],
-                    "grammar_note": ""
+                    "grammar_note": "There is a notable exception. The word 'kudho' which means 'thorn' forms its plural as 'kudhni' rather than the expected 'kuthe'."
                     }
                   },
                 {
@@ -77,7 +46,8 @@
                                 ["Ndara", "Road", "Ndeche", "Rabbits"],
                                 ["Bur", "Hole", "Buche", "Holes"],
                                 ["Akuru", "Pigeon", "Akuche", "Piegons"],
-                                ["Odheru", "Basket", "Odheche", "Baskets"]
+                                ["Odheru", "Basket", "Odheche", "Baskets"],
+                                ["Ong'er", "Monkey", "Ong'eche", "Monkeys"]
                               ],
                             "grammar_note": ""
                             }
