@@ -1,0 +1,166 @@
+{
+    "id": 15,
+    "title": "Chapter 3 Review - Practice & Application",
+    "description": "Review and practice everything from Chapter 3",
+    "sections": [
+      {
+        "type": "practice",
+        "title": "🎯 Multiple Choice Review",
+        "content": {
+          "instructions": "Test your knowledge of numbers, nouns, use of the prefix 'ja' and introductions from lessons 6-9.",
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "Translate this: 'Omondi nigi oguyo'",
+              "options": ["Omondi has a goat", "Omondi has a pumpkin", "Omondi has a butterfly", "Omondi has a chicken"],
+              "correct_answer": 3,
+              "explanation": "The word 'oguyo' means 'butterfly'. It's plural is 'oguche'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Translate this: 'Owada nigi gari to oting'o ring'o'",
+              "options": ["My relative has a car and he is carrying meat", "My friend has some meat that he is carrying", "My friend has a car and he is carrying meat", "My relative has some meat and he left it in the car."],
+              "correct_answer": 1,
+              "explanation": "'Owada' = 'My relative'"
+            },
+            {
+                "type": "multiple_choice",
+                "question": "What is the opposite of 'akuche nitie.'?",
+                "options": ["akuru nitie", "akuche onge", "akuche nigi oguche", "akuche dhi"],
+                "correct_answer": 2,
+                "explanation": "'Nitie' means 'to be present'. The opposite is 'onge' which means 'to be absent'."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "How would you say: 'I don't have money'?",
+                "options": ["An gi pesa", "Aonge gi pesa", "An nigi pesa", "Antie gi pesa"],
+                "correct_answer": 2,
+                "explanation": "'Aonge' means 'I don't have' or 'I am not present with'."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What is the plural of the word 'athero'? ('athero' means 'an arrow')",
+                "options": ["Atheche", "Athende", "Atheros", "Atherni"],
+                "correct_answer": 1,
+                "explanation": "It ends in 'r' followed by a vowel so it's plural takes the 'che' ending"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "The word 'gol' is a loan word from English meaning 'goal' as in a football match. How would you say '5 goals'?",
+                "options": ["Gol abich", "Gonde abich", "Gol mia abich", "Gonde ariyo"],
+                "correct_answer": 2,
+                "explanation": "'Gol' takes the 'nde' ending. 'Abich' means 'five'."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What do you call a female child born while it is raining?",
+                "options": ["Adoyo", "Akoth", "Alweny", "Atieno"],
+                "correct_answer": 2,
+                "explanation": "'koth' = 'rain'"
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What is the luo word for 'evening'",
+                "options": ["Okinyi", "Odhiambo", "Otieno", "Owuor"],
+                "correct_answer": 2,
+                "explanation": "'Odhiambo' means 'evening'. Children born at this time are named 'Odhiambo' or 'Adhiambo'."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "The verb 'biro' means 'to come'. How do you say 'You (plural) are coming'?",
+                "options": ["Gibiro", "Ibiro", "Wabiro", "Ubiro"],
+                "correct_answer": 4,
+                "explanation": "You add the pronoun suffix 'U' to the beginning of the verb."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "The verb 'puonjo' means 'to teach'. How would you say: 'I am teaching you (plural)?'",
+                "options": ["Apuonji", "Apuonjogi", "Apuonje", "Apuonjou"],
+                "correct_answer": 4,
+                "explanation": "Add the pronoun suffix 'u' to the end of the verb to show the object i.e the person being taught."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "The verb 'puonjo' means 'to teach'. How would you say: 'I am teaching them?'",
+                "options": ["Apuonji", "Apuonjogi", "Apuonje", "Apuonjou"],
+                "correct_answer": 2,
+                "explanation": "Add the pronoun suffix 'gi' to the end of the verb to show the object i.e the person being taught."
+              },
+              {
+                "type": "multiple_choice",
+                "question": "What do you call a child born during weeding season?",
+                "options": ["Otieno", "Oluoch", "Odoyo", "Ouma"],
+                "correct_answer": 3,
+                "explanation": "From the verb 'doyo' which means 'to weed'"
+              }
+          ]
+        }
+      },
+      {
+        "type": "prose_writing",
+        "title": "✍️ Send a quick text to your friend",
+        "content": {
+          "instructions": "Using what you've learned in this chapter, send a quick text to your friend. Tell them what you're doing and name a few random things that you have in this moment.",
+          "prompts": [
+            "Start by sharing what you're doing: 'Asomo' (I am reading)",
+            "Mention three things that you have: 'Antie gi buk, gi sim, gi pesa. ' (I have a book, and a phone, and money)"
+          ],
+          "example": "Asomo. Antie gi buk, gi sim, gi pesa.",
+          "word_limit": 100,
+          "sharing": {
+            "enabled": true,
+            "template": "Just sent a text to my friend in #Dholuo! 🇰🇪🌍\n\n{user_text}\n\nLearning with [YourAppName] 📚 #LearnDholuo",
+            "platforms": ["twitter", "facebook", "whatsapp"]
+          }
+        }
+      },
+      {
+        "type": "audio_comprehension", 
+        "title": "👂 Listen & Understand",
+        "content": {
+          "instructions": "Listen to the audio clip and answer the questions below. You can replay the audio up to 3 times.",
+          "audio_file": "audio/chapter1_review.mp3",
+          "transcript": "An Otieno. Adhi limogi. Gin be gidhi dala. Nyathi maduong' otedo maber.",
+          "translation": "I am Otieno. I'm going to visit them. They are also going home. The big child cooked well.",
+          "max_replays": 3,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the speaker's name?",
+              "options": ["Akinyi", "Otieno", "Yambo", "Jane"],
+              "correct_answer": 2,
+              "explanation": "The speaker says 'An Otieno' meaning 'I am Otieno'"
+            },
+            {
+              "type": "multiple_choice", 
+              "question": "Where is the speaker going?",
+              "options": ["Home", "To visit them", "To cook", "Outside"],
+              "correct_answer": 2,
+              "explanation": "'Adhi limogi' means 'I'm going to visit them'"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "Who cooked well?",
+              "options": ["The speaker", "They", "The big child", "The small child"],
+              "correct_answer": 3,
+              "explanation": "'Nyathi maduong' otedo maber' means 'The big child cooked well'"
+            }
+          ]
+        }
+      },
+      {
+        "type": "completion",
+        "title": "🎉 Chapter 3 Complete!",
+        "content": {
+          "congratulations": "Excellent work! You've completed Chapter 3 and are well on your way to speaking Dholuo like a native.",
+          "summary": "In this chapter you learned: more on nouns, the verbs 'to have' and 'to be' and how to conjugate verbs in the present tense, and how Luos name their children.",
+          "next_steps": "Ready for Chapter 4? You'll learn about asking questions, tenses, and more.",
+          "achievements": [
+            "First Dholuo Introduction Written",
+            "Chapter 3 Master", 
+            "Audio Comprehension Apprentice"
+          ]
+        }
+      }
+    ]
+  }

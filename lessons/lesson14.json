@@ -1,0 +1,214 @@
+{
+    "id": 14,
+    "title": "Introduction to Tenses in Dholuo",
+    "description": "Learn how to conjugate verbs in different tenses in Luo",
+    "sections": [
+      {
+        "type": "theory",
+        "title": "📚 Theory: Introduction to Tenses: The Present Tense",
+        "content": {
+          "introduction": "We've seen this in previous classes, but let's formally study the present tense in dholuo. To conjugate a verb in the present tense, add the pronoun prefix to the beginning of the verb. However, if the subject of the verb is not overt, no prefix is needed.",
+          "phrases": [
+            {
+                "dholuo": "Achiemo",
+                "english": "I eat",
+                "notes": "The pronoun prefix 'a' meaning 'I' is added to the verb 'chiemo', meaning 'to eat'."
+              },
+              {
+                "dholuo": "Achieng' chiemo", 
+                "english": "Achieng' eats.",
+                "notes": "Since 'Achieng' is mentioned by name, no pronoun prefix is needed."
+              },
+              {
+                "dholuo": "Gichiemo", 
+                "english": "They eat."
+              },
+              {
+                "dholuo": "Ji chiemo", 
+                "english": "The people eat.",
+                "notes": "'Ji' means 'people'."
+              }
+            ],
+            "grammar_note": "The present tense gives the meaning 'I eat' as well as 'I am eating'. There is no separate present progressive form."
+              }
+        },
+        {
+        "type": "theory",
+        "title": "📚 Theory: Introduction to Tenses: The Present Tense",
+        "content": {
+          "introduction": "In the present tense, the 'o' at the end of the verb can be removed and replaced with a pronoun suffix to indicate the object of the verb. This is the case for the singular pronoun suffixes (eg. -a, -i, and -e). If the object is indirect, or if the object is a plural pronoun suffix, the 'o' at the end of the verb remains.",
+          "phrases": [
+            {
+                "dholuo": "Akonyi",
+                "english": "I help you",
+                "notes": "From the verb 'konyo' which means 'to help'. The 'o' at the end is removed and replaced with the pronoun suffix 'i' which means 'you'."
+              },
+              {
+                "dholuo": "Ikonya", 
+                "english": "You help me."
+              },
+              {
+                "dholuo": "Gikonyi", 
+                "english": "They help you."
+              },
+              {
+                "dholuo": "Okonyo John", 
+                "english": "He/She helps John",
+                "notes": "Notice how the 'o' at the end of the verb remains."
+              },
+              {
+                "dholuo": "Okonyou", 
+                "english": "He/She helps you (plural)",
+                "notes": "Notice how the 'o' at the end of the verb remains because the suffix is for a plural pronoun."
+              },
+              {
+                "dholuo": "Ikonyowa", 
+                "english": "You help you us",
+                "notes": "Notice how the 'o' at the end of the verb remains because the suffix is for a plural pronoun."
+              }
+            ]
+              }
+        },
+      {
+        "type": "conversation",
+        "title": "💬 Conversation Practice",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Ikelo ango?",
+              "literal": "You bring + what?",
+              "english": "What do you bring? (or what are you bringing?)"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "Akelo rabolo.",
+              "literal": "I bring + bananas",
+              "english": "I bring bananas (or I am bringing bananas)"
+            },
+            {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "An to akelo rabuon",
+                "literal": "Me + and + I bring potatoes.",
+                "english": "And I am bringing potatoes."
+              },
+              {
+                "speaker": "Akinyi",
+                "speaker_type": "B",
+                "dholuo": "To Auma ting'o ring'o.",
+                "literal": "And + Auma + carries + meat",
+                "english": "And Auma is carrying meat."
+              },
+            {
+              "speaker": "Yambo", 
+              "speaker_type": "A",
+              "dholuo": "To Otis?",
+              "literal": "And + Otis?",
+              "english": "And Otis?"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B", 
+              "dholuo": "Otis Kelo apoth",
+              "literal": "Otis + brings + apoth ",
+              "english": "Otis brings apoth",
+              "notes": "'Apoth' is a type of traditional vegetable with a slimy texture."
+            }
+          ]
+        }
+      },
+      {
+        "type": "vocabulary",
+        "title": "📚 Vocabulary from the Conversation",
+        "content": {
+          "words": [
+            {
+              "dholuo": "Ting'o",
+              "english": "To carry",
+              "type": "Verb"
+            },
+            {
+              "dholuo": "Kelo", 
+              "english": "To bring",
+              "type": "Verb",
+              "notes": "Pronounced 'keh-low'."
+            },
+            {
+                "dholuo": "Apoth", 
+                "english": "A type of slimy vegetable",
+                "type": "Noun",
+                "notes": "Rhymes with 'goth'."
+              },
+            {
+                "dholuo": "Ring'o", 
+                "english": "Meat",
+                "type": "Noun",
+                "notes": "Sounds like the english word 'ring' with an extra 'oh' at the end."
+              }
+          ]
+        }
+      },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "pronunciation": [
+            {
+              "dholuo": "Ting'o",
+              "phonetic": "[tee-ng'o]",
+              "tips": "",
+              "audio_file": "audio/ting'o.mp3"
+            },
+            {
+              "dholuo": "Ring'o",
+              "phonetic": "[ring-oh]",
+              "tips": "",
+              "audio_file": "audio/ring'o.mp3"
+            },
+            {
+              "dholuo": "Kelo",
+              "phonetic": "[keh-low]",
+              "tips": "Sounds like you're pronouncing the letter 'K' followed by the english word 'low'.",
+              "audio_file": "audio/kelo.mp3"
+            },
+            {
+              "dholuo": "Apoth",
+              "phonetic": "[ah-poth]",
+              "audio_file": "audio/apoth.mp3"
+            },
+            {
+                "dholuo": "Rabolo",
+                "phonetic": "[rah-bow-low]",
+                "audio_file": "audio/rabolo.mp3"
+              }
+          ],
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the correct way to say 'she is running'?",
+              "options": ["Aringo", "Oringo", "Giringo", "Uringo"],
+              "correct_answer": 2,
+              "explanation": "'O' is the pronoun suffix for he/she. You add it to the beginning of the verb to give the present tense.."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'amosou' mean?",
+              "options": ["I greet her", "She greets me", "I greet you", "We greet you"],
+              "correct_answer": 3,
+              "explanation": "To show the object of the verb, you add the pronoun suffix to the end of the verb. Thus 'amoso-u' means 'I greet you (plural)'. This word is a bit of an exception since we don't drop the 'o' at the end of the verb before adding the 'u'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'ating'o rabuon' mean?",
+              "options": ["I am carrying bananas", "I am carrying potatoes", "I am carrying meat", "I am carrying wheat"],
+              "correct_answer": 2,
+              "explanation": "'ating'o' means 'I carry' or 'I am carrying'. 'Rabuon' means 'potatoes'."
+            }
+          ]
+        }
+      }
+    ]
+}
