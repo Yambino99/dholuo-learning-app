@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Lessons to Firestore</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .upload-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 2px dashed #ccc;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .upload-section:hover {
+            border-color: #007bff;
+            background-color: #f8f9fa;
+        }
+        
+        input[type="file"] {
+            margin: 10px 0;
+        }
+        
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        
+        #progress {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .success {
+            color: #28a745;
+        }
+        
+        .error {
+            color: #dc3545;
+        }
+        
+        .warning {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        .step {
+            background-color: #e9ecef;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border-left: 4px solid #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Upload Dholuo Lessons to Firestore</h1>
+        
+        <div class="warning">
+            <strong>⚠️ Important:</strong> Make sure you've configured your Firebase project credentials in the script before uploading!
+        </div>
+        
+        <div class="step">
+            <h3>Step 1: Configure Firebase</h3>
+            <p>Edit the firebaseConfig object in the script with your project credentials from the Firebase Console.</p>
+        </div>
+        
+        <div class="step">
+            <h3>Step 2: Select Your JSON Files</h3>
+            <div class="upload-section" id="dropZone">
+                <p>📁 Select your lesson JSON files or drag and drop them here</p>
+                <input type="file" id="fileInput" multiple accept=".json">
+                <br>
+                <button onclick="uploadFiles()" id="uploadBtn">🚀 Upload All Files</button>
+            </div>
+        </div>
+        
+        <div class="step">
+            <h3>Step 3: Test & Verify</h3>
+            <button onclick="uploadSampleLesson()">📝 Upload Sample Lesson (Test)</button>
+            <button onclick="verifyUploads()">🔍 Verify Uploads (Check Console)</button>
+        </div>
+        
+        <div id="progress"></div>
+        
+        <div style="margin-top: 30px; padding: 15px; background-color: #d1ecf1; border-radius: 5px;">
+            <h4>📋 Instructions:</h4>
+            <ol>
+                <li>Make sure your JSON files are named like <code>lesson1.json</code>, <code>lesson2.json</code>, etc.</li>
+                <li>Select all your lesson files at once using the file input</li>
+                <li>Click "Upload All Files" and wait for completion</li>
+                <li>Check the progress area below for status updates</li>
+                <li>Use "Verify Uploads" to see what was uploaded (check browser console)</li>
+            </ol>
+        </div>
+        
+        <div style="margin-top: 20px; font-size: 0.9em; color: #666;">
+            <p><strong>Note:</strong> This uploader will create documents in the "lessons" collection with IDs like "lesson1", "lesson2", etc.</p>
+            <p>After uploading, you can delete this HTML file - it's only needed once for the initial upload.</p>
+        </div>
+    </div>
+    <button onclick="testFirebaseConnection()">🔧 Test Firebase Connection</button>
+
+    <!-- Firebase SDK -->
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
+        import { getFirestore, doc, setDoc, collection, getDocs } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js';
+
+        // 🔥 REPLACE THIS WITH YOUR ACTUAL FIREBASE CONFIG
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyAvYXo1B6GSxLQO_a6mWy6_s1my8DcHTFA",
+            authDomain: "dholuo-app.firebaseapp.com",
+            projectId: "dholuo-app",
+            storageBucket: "dholuo-app.firebasestorage.app",
+            messagingSenderId: "84559410671",
+            appId: "1:84559410671:web:a48caaec1c43ca4951f21a",
+            measurementId: "G-BGE4FVPPFL"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app, 'database1');
+
+        // Upload function
+        window.uploadFiles = async function() {
+            const fileInput = document.getElementById('fileInput');
+            const progressDiv = document.getElementById('progress');
+            const uploadBtn = document.getElementById('uploadBtn');
+            const files = fileInput.files;
+            
+            if (files.length === 0) {
+                alert('Please select JSON files to upload');
+                return;
+            }
+            
+            uploadBtn.disabled = true;
+            uploadBtn.textContent = '⏳ Uploading...';
+            progressDiv.innerHTML = '<p>Starting upload...</p>';
+            
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                
+                try {
+                    const text = await file.text();
+                    const lessonData = JSON.parse(text);
+                    
+                    // Extract lesson number from filename
+                    const match = file.name.match(/lesson[\-_]?(\d+)/i);
+                    const lessonNumber = match ? parseInt(match[1]) : (i + 1);
+                    
+                    lessonData.lessonNumber = lessonNumber;
+                    
+                    const docRef = doc(db, 'chapters', 'chapter1', 'lessons', `lesson${lessonNumber}`);
+                    await setDoc(docRef, lessonData);
+                    
+                    progressDiv.innerHTML += `<p class="success">✅ Uploaded ${file.name} as lesson${lessonNumber}</p>`;
+                    
+                } catch (error) {
+                    console.error(`Error uploading ${file.name}:`, error);
+                    progressDiv.innerHTML += `<p class="error">❌ Failed to upload ${file.name}: ${error.message}</p>`;
+                }
+            }
+            
+            progressDiv.innerHTML += '<p><strong class="success">🎉 Upload complete!</strong></p>';
+            uploadBtn.disabled = false;
+            uploadBtn.textContent = '🚀 Upload All Files';
+        };
+
+        // Sample lesson upload for testing
+        window.uploadSampleLesson = async function() {
+            const sampleLesson = {
+                title: "Test Lesson - Introduction to Dholuo Pronouns",
+                sections: [
+                    {
+                        type: "theory",
+                        title: "Understanding Dholuo Pronouns",
+                        content: {
+                            introduction: "This is a test lesson to verify the upload process works correctly.",
+                            phrases: [
+                                {
+                                    dholuo: "An ema John",
+                                    literal: "I am John", 
+                                    english: "I am John"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            };
+            
+            try {
+                sampleLesson.lessonNumber = 999; // Use 999 for test
+                const docRef = doc(db, 'lessons', 'lesson999');
+                await setDoc(docRef, sampleLesson);
+                
+                const progressDiv = document.getElementById('progress');
+                progressDiv.innerHTML += '<p class="success">✅ Test lesson uploaded successfully as lesson999!</p>';
+                
+            } catch (error) {
+                console.error('Error uploading test lesson:', error);
+                const progressDiv = document.getElementById('progress');
+                progressDiv.innerHTML += `<p class="error">❌ Failed to upload test lesson: ${error.message}</p>`;
+            }
+        };
+
+        // Add this test function in your script
+        window.testFirebaseConnection = async function() {
+            try {
+                console.log('Testing Firebase connection...');
+                console.log('Project ID:', app.options.projectId);
+                console.log('Database object:', db);
+        
+        // Try to read from a test collection first
+        const testRef = collection(db, 'test');
+        const testQuery = await getDocs(testRef);
+        console.log('Read test successful');
+        
+        // Try to write a simple test document
+        const testDocRef = doc(db, 'test', 'testDoc');
+        await setDoc(testDocRef, { test: 'hello', timestamp: new Date() });
+        console.log('Write test successful');
+        
+    } catch (error) {
+        console.error('Firebase test failed:', error);
+        console.error('Error code:', error.code);
+        console.error('Error message:', error.message);
+    }
+};
+
+        // Verify uploads
+        window.verifyUploads = async function() {
+            try {
+                const lessonsRef = collection(db, 'lessons');
+                const snapshot = await getDocs(lessonsRef);
+                
+                console.log('📋 Lessons in Firestore:');
+                const lessons = [];
+                snapshot.forEach((doc) => {
+                    const data = doc.data();
+                    lessons.push({
+                        id: doc.id,
+                        title: data.title,
+                        sections: data.sections?.length || 0
+                    });
+                });
+                
+                lessons.sort((a, b) => {
+                    const aNum = parseInt(a.id.replace('lesson', ''));
+                    const bNum = parseInt(b.id.replace('lesson', ''));
+                    return aNum - bNum;
+                });
+                
+                lessons.forEach(lesson => {
+                    console.log(`- ${lesson.id}: "${lesson.title}" (${lesson.sections} sections)`);
+                });
+                
+                const progressDiv = document.getElementById('progress');
+                progressDiv.innerHTML += `<p class="success">✅ Found ${lessons.length} lessons in Firestore. Check console for details.</p>`;
+                
+            } catch (error) {
+                console.error('Error verifying uploads:', error);
+                const progressDiv = document.getElementById('progress');
+                progressDiv.innerHTML += `<p class="error">❌ Failed to verify uploads: ${error.message}</p>`;
+            }
+        };
+    </script>
+</body>
+</html>

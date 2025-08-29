@@ -1,0 +1,141 @@
+{
+    "id": 17,
+    "title": "Continuation on Tenses in Dholuo",
+    "description": "Learn how to conjugate verbs in different tenses in Luo",
+    "sections": [
+      {
+        "type": "theory",
+        "title": "📚 Theory: More on Tenses: The Past Tense of Yesterday",
+        "content": {
+          "introduction": "The word 'nyoro' means 'yesterday'. It is often contracted to 'nyo' and is used to form the past tense of yesterday.",
+            "grammar_note": "Let's see how this works in practice."
+              }
+        },
+        {
+        "type": "table",
+        "title": "📚 Use of 'nyo' to indicate the past of yesterday.", 
+        "content": {
+            "introduction": "Here's how to conjugate verbs in past tense using 'nyoro' or 'nyo'.",
+            "columns": ["English (Present tense)", "Dholuo (Present tense)", "English (Present tense)", "Dholuo (Past Tense)", "Dhouluo (Past tense - contracted)"],
+            "rows": [
+                ["I am walking", "Awuotho", "Yesterday, I walked", "Nyoro nyo awuotho or nyo awuotho", "Nyawuotho"],
+                ["You are walking", "Iwuotho", "Yesterday, you walked", "Nyoro nyo iwuotho or nyo iwuotho", "Nyiwuotho"],
+                ["He/She is walking", "Owuotho", "Yesterday, he/she walked", "Nyoro nyo owuotho or nyo owuotho", "Nyowuotho"],
+                ["We are walking", "Wawuotho", "Yesterday, we walked", "Nyoro nyo wawuotho or nyo wawuotho", "Nyo wawuotho"],
+                ["You (plural) are walking", "Uwuotho", "Yesterday, you walked", "Nyoro nyo uwuotho or nyo uwuotho", "Nyuwuotho"],
+                ["They are walking", "Giwuotho", "Yesterday, they walked", "Nyoro nyo giwuotho or nyo giwuotho", "Nyo giwuotho"]
+              ]
+            }
+          },
+      {
+        "type": "conversation",
+        "title": "💬 Conversation Practice",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Nyoro nyionge",
+              "literal": "Yesterday + yesterday you were not present.",
+              "english": "You were absent"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "Nyadhi e puodho.",
+              "literal": "Yesterday I went + to + the farm",
+              "english": "I went to the farm"
+            },
+            {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "Nyipuro?",
+                "literal": "Yesterday you farmed?",
+                "english": "You farmed?"
+              },
+              {
+                "speaker": "Akinyi",
+                "speaker_type": "B",
+                "dholuo": "Nyadoyo",
+                "literal": "Yesterday I weeded",
+                "english": "I weeded."
+              }
+          ]
+        }
+      },
+      {
+        "type": "vocabulary",
+        "title": "📚 Vocabulary from the Conversation",
+        "content": {
+          "words": [
+            {
+              "dholuo": "Nyionge",
+              "english": "Yesterday, you were not present",
+              "type": "Verb",
+              "notes": "It's a contraction of 'nyo ionge'"
+            },
+            {
+              "dholuo": "Nyipuro", 
+              "english": "Yesterday, you farmed",
+              "type": "Verb",
+              "notes": "It's a contraction of 'nyo ipuro'."
+            },
+            {
+                "dholuo": "Nyadoyo", 
+                "english": "Yesterday you weeded",
+                "type": "Verb",
+                "notes": "It's a contraction of 'nyo adoyo'."
+              }
+          ]
+        }
+      },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "pronunciation": [
+            {
+              "dholuo": "Nyionge",
+              "phonetic": "[nyee-oh-ngay]",
+              "tips": "",
+              "audio_file": "audio/nyionge.mp3"
+            },
+            {
+              "dholuo": "Nyipuro",
+              "phonetic": "[nyee-poo-row]",
+              "tips": "",
+              "audio_file": "audio/nyipuro.mp3"
+            },
+            {
+              "dholuo": "Nyadoyo",
+              "phonetic": "[nyah-dow-yow]",
+              "audio_file": "audio/nyadoyo.mp3"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following can you not conclude, when someone says: 'Nyo wachiemo'.",
+              "options": ["The speaker is referring to a group of people", "The speaker is talking about something that happened the day before", "The speaker, along with some other people, at the day before", "The speaker did not eat the day before"],
+              "correct_answer": 4,
+              "explanation": "'Nyo wachiemo' means 'yesterday, we ate'. It is incorrect to conclude that the speaker did not eat the day before."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'nyoro nyo watuo' mean?",
+              "options": ["Yesterday, we were sick", "She was sick yesterday", "I was sick yesterday", "You were sick yesterday"],
+              "correct_answer": 1,
+              "explanation": "It means 'Yesterday, we were sick'"
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'nyo uting'o rabuon' mean?",
+              "options": ["I carried bananas", "You carried bananas yesterday", "You carried potatoes yesterday", "You are carrying wheat"],
+              "correct_answer": 3,
+              "explanation": "'Nyo' indicates that the action happened yesterday. 'Rabuon' means 'potatoes'."
+            }
+          ]
+        }
+      }
+    ]
+}

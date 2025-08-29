@@ -1,0 +1,172 @@
+{
+    "id": 19,
+    "title": "Continuation on Tenses in Dholuo",
+    "description": "Learn how to conjugate verbs in different tenses in Luo",
+    "sections": [
+      {
+        "type": "theory",
+        "title": "📚 Theory: More on Tenses: The Habitual Tense",
+        "content": {
+          "introduction": "The most common way to form the habitual tense is using '-ga' after the verb.",
+          "phrases": [
+            {
+                "dholuo": "Achiemoga",
+                "english": "I usually eat",
+                "notes": "The -ga suffix at the verb indicates that the verb is done habitually."
+              },
+              {
+                "dholuo": "Achiewoga gokinyi", 
+                "english": "I usually wake up in the morning",
+                "notes": "Derived from the verb 'chiewo' which means 'to wake up'."
+              },
+              {
+                "dholuo": "Aheroga kwon", 
+                "english": "I usually like kwon",
+                "notes": "Derived from the verb 'hero' which means 'to love'. Also, 'kwon' is the dholuo word for 'Ugali', the staple dish of Kenya."
+              }
+            ]
+              }
+        },
+      {
+        "type": "conversation",
+        "title": "💬 Conversation Practice",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Ikelo ango?",
+              "literal": "You bring + what?",
+              "english": "What do you bring? (or what are you bringing?)"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "Akelo rabolo.",
+              "literal": "I bring + bananas",
+              "english": "I bring bananas (or I am bringing bananas)"
+            },
+            {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "An to akelo rabuon",
+                "literal": "Me + and + I bring potatoes.",
+                "english": "And I am bringing potatoes."
+              },
+              {
+                "speaker": "Akinyi",
+                "speaker_type": "B",
+                "dholuo": "To Auma ting'o ring'o.",
+                "literal": "And + Auma + carries + meat",
+                "english": "And Auma is carrying meat."
+              },
+            {
+              "speaker": "Yambo", 
+              "speaker_type": "A",
+              "dholuo": "To Otis?",
+              "literal": "And + Otis?",
+              "english": "And Otis?"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B", 
+              "dholuo": "Otis Kelo apoth",
+              "literal": "Otis + brings + apoth ",
+              "english": "Otis brings apoth",
+              "notes": "'Apoth' is a type of traditional vegetable with a slimy texture."
+            }
+          ]
+        }
+      },
+      {
+        "type": "vocabulary",
+        "title": "📚 Vocabulary from the Conversation",
+        "content": {
+          "words": [
+            {
+              "dholuo": "Ting'o",
+              "english": "To carry",
+              "type": "Verb"
+            },
+            {
+              "dholuo": "Kelo", 
+              "english": "To bring",
+              "type": "Verb",
+              "notes": "Pronounced 'keh-low'."
+            },
+            {
+                "dholuo": "Apoth", 
+                "english": "A type of slimy vegetable",
+                "type": "Noun",
+                "notes": "Rhymes with 'goth'."
+              },
+            {
+                "dholuo": "Ring'o", 
+                "english": "Meat",
+                "type": "Noun",
+                "notes": "Sounds like the english word 'ring' with an extra 'oh' at the end."
+              }
+          ]
+        }
+      },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "pronunciation": [
+            {
+              "dholuo": "Ting'o",
+              "phonetic": "[tee-ng'o]",
+              "tips": "",
+              "audio_file": "audio/ting'o.mp3"
+            },
+            {
+              "dholuo": "Ring'o",
+              "phonetic": "[ring-oh]",
+              "tips": "",
+              "audio_file": "audio/ring'o.mp3"
+            },
+            {
+              "dholuo": "Kelo",
+              "phonetic": "[keh-low]",
+              "tips": "Sounds like you're pronouncing the letter 'K' followed by the english word 'low'.",
+              "audio_file": "audio/kelo.mp3"
+            },
+            {
+              "dholuo": "Apoth",
+              "phonetic": "[ah-poth]",
+              "audio_file": "audio/apoth.mp3"
+            },
+            {
+                "dholuo": "Rabolo",
+                "phonetic": "[rah-bow-low]",
+                "audio_file": "audio/rabolo.mp3"
+              }
+          ],
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the correct way to say 'she is running'?",
+              "options": ["Aringo", "Oringo", "Giringo", "Uringo"],
+              "correct_answer": 2,
+              "explanation": "'O' is the pronoun suffix for he/she. You add it to the beginning of the verb to give the present tense.."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'amosou' mean?",
+              "options": ["I greet her", "She greets me", "I greet you", "We greet you"],
+              "correct_answer": 3,
+              "explanation": "To show the object of the verb, you add the pronoun suffix to the end of the verb. Thus 'amoso-u' means 'I greet you (plural)'. This word is a bit of an exception since we don't drop the 'o' at the end of the verb before adding the 'u'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'ating'o rabuon' mean?",
+              "options": ["I am carrying bananas", "I am carrying potatoes", "I am carrying meat", "I am carrying wheat"],
+              "correct_answer": 2,
+              "explanation": "'ating'o' means 'I carry' or 'I am carrying'. 'Rabuon' means 'potatoes'."
+            }
+          ]
+        }
+      }
+    ]
+}

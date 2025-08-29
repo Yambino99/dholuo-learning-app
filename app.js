@@ -1,34 +1,261 @@
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js';
+import { getFirestore, doc, getDoc, collection, getDocs, query, orderBy } from 'https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js';
+
+// Your Firebase config (replace with your actual config)
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAvYXo1B6GSxLQO_a6mWy6_s1my8DcHTFA",
+  authDomain: "dholuo-app.firebaseapp.com",
+  projectId: "dholuo-app",
+  storageBucket: "dholuo-app.firebasestorage.app",
+  messagingSenderId: "84559410671",
+  appId: "1:84559410671:web:a48caaec1c43ca4951f21a",
+  measurementId: "G-BGE4FVPPFL"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
 // Dynamic Lesson Loader for Dholuo App
 let currentLesson = null;
 let currentSection = 0;
 let totalSections = 0;
 let currentLessonNumber = 1;  // Track which lesson we're on
 let totalLessons = 30;  // number of planned lessons
+let lessonCache = new map(); // add caching for better performance
 
 // Main function to load a lesson
 async function loadLesson(lessonId) {
-
     console.log('loadLesson called with lessonId:', lessonId);
-    console.log('Fetching URL:', `lessons/lesson${lessonId}.json`);
+    
+    // Check cache first
+    if (lessonsCache.has(lessonId)) {
+        console.log('Loading lesson from cache:', lessonId);
+        const lesson = lessonsCache.get(lessonId);
+        setCurrentLesson(lesson);
+        return;
+    }
 
     try {
-        const response = await fetch(`lessons/lesson${lessonId}.json`);
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const lesson = await response.json();
-        console.log('Lesson loaded successfully:', lesson.title);
-        currentLesson = lesson;
-        totalSections = lesson.sections.length;
-        currentSection = 0;
+        // Show loading indicator
+        showLoadingIndicator();
         
-        displaySection(0);
-        updateProgress();
+        // Fetch lesson from Firestore
+        const lessonDocRef = doc(db, 'lessons', `lesson${lessonId}`);
+        const lessonDocSnap = await getDoc(lessonDocRef);
+        
+        if (lessonDocSnap.exists()) {
+            const lesson = lessonDocSnap.data();
+            console.log('Lesson loaded successfully from Firestore:', lesson.title);
+            
+            // Cache the lesson
+            lessonsCache.set(lessonId, lesson);
+            
+            setCurrentLesson(lesson);
+        } else {
+            throw new Error(`Lesson ${lessonId} not found in database`);
+        }
+        
     } catch (error) {
-        console.error('Error loading lesson:', error);
-        displayError('Could not load lesson. Please try again.');
+        console.error('Error loading lesson from Firestore:', error);
+        displayError(`Could not load lesson ${lessonId}. Please check your connection and try again.`);
+    } finally {
+        hideLoadingIndicator();
     }
+}
+
+// Helper function to set current lesson data
+function setCurrentLesson(lesson) {
+    currentLesson = lesson;
+    totalSections = lesson.sections.length;
+    currentSection = 0;
+    
+    displaySection(0);
+    updateProgress();
     updateNavigation();
+}
+
+// New function to load all lessons metadata (for navigation)
+async function loadLessonsMetadata() {
+    try {
+        const lessonsRef = collection(db, 'lessons');
+        const q = query(lessonsRef, orderBy('lessonNumber'));
+        const querySnapshot = await getDocs(q);
+        
+        const lessons = [];
+        querySnapshot.forEach((doc) => {
+            const data = doc.data();
+            lessons.push({
+                id: doc.id,
+                number: data.lessonNumber,
+                title: data.title,
+                sections: data.sections ? data.sections.length : 0
+            });
+        });
+        
+        totalLessons = lessons.length;
+        return lessons;
+    } catch (error) {
+        console.error('Error loading lessons metadata:', error);
+        return [];
+    }
+}
+
+// New function to preload lessons for offline capability
+async function preloadLessons(lessonNumbers = []) {
+    console.log('Preloading lessons:', lessonNumbers);
+    
+    for (const lessonId of lessonNumbers) {
+        if (!lessonsCache.has(lessonId)) {
+            try {
+                const lessonDocRef = doc(db, 'lessons', `lesson${lessonId}`);
+                const lessonDocSnap = await getDoc(lessonDocRef);
+                
+                if (lessonDocSnap.exists()) {
+                    lessonsCache.set(lessonId, lessonDocSnap.data());
+                    console.log(`Preloaded lesson ${lessonId}`);
+                }
+            } catch (error) {
+                console.warn(`Failed to preload lesson ${lessonId}:`, error);
+            }
+        }
+    }
+}
+
+// Loading indicator functions
+function showLoadingIndicator() {
+    const container = document.getElementById('lessonContainer');
+    container.innerHTML = `
+        <div class="lesson-card">
+            <div class="loading-indicator" style="text-align: center; padding: 40px;">
+                <div class="spinner"></div>
+                <p>Loading lesson...</p>
+            </div>
+        </div>
+    `;
+}
+
+function hideLoadingIndicator() {
+    // The loading indicator will be replaced when displaySection() is called
+}
+
+function showLoadingIndicator() {
+    const container = document.getElementById('lessonContainer');
+    container.innerHTML = `
+        <div class="lesson-card">
+            <div class="loading-indicator" style="text-align: center; padding: 40px;">
+                <div class="spinner"></div>
+                <p>Loading lesson...</p>
+            </div>
+        </div>
+    `;
+}
+
+function hideLoadingIndicator() {
+    // The loading indicator will be replaced when displaySection() is called
+}
+
+// Modified initialization function
+document.addEventListener('DOMContentLoaded', async function() {
+    console.log('App initializing...');
+    
+    try {
+        // Initialize navigation first
+        initializeNavigation();
+        
+        // Load lessons metadata for navigation
+        const lessonsMetadata = await loadLessonsMetadata();
+        console.log('Loaded lessons metadata:', lessonsMetadata.length, 'lessons');
+        
+        // Preload the first few lessons
+        await preloadLessons([1, 2, 3]);
+        
+        // Load the first lesson
+        await loadLesson(1);
+        
+    } catch (error) {
+        console.error('Error initializing app:', error);
+        displayError('Failed to initialize the app. Please refresh the page.');
+    }
+});
+
+// Modified nextLesson function to handle Firestore
+async function nextLesson() {
+    console.log('next lesson called');
+    console.log('Current lesson number before increment:', currentLessonNumber);
+    
+    if (currentLessonNumber < totalLessons) {
+        currentLessonNumber++;
+        console.log('Incremented to lesson:', currentLessonNumber);
+        
+        // Preload the next lesson for smoother experience
+        if (currentLessonNumber + 1 <= totalLessons) {
+            preloadLessons([currentLessonNumber + 1]);
+        }
+        
+        await loadLesson(currentLessonNumber);
+        updateProgress();
+    } else {
+        alert('Congratulations! You\'ve completed all lessons! 🎉');
+    }
+}
+
+// Modified jumpToLessonNumber function
+async function jumpToLessonNumber(lessonNumber) {
+    currentLessonNumber = lessonNumber;
+    await loadLesson(lessonNumber);
+}
+
+// Modified jumpToLesson function for dropdown
+async function jumpToLesson() {
+    const select = document.getElementById('lessonSelect');
+    const lessonNumber = parseInt(select.value);
+    
+    if (lessonNumber) {
+        await jumpToLessonNumber(lessonNumber);
+        select.value = ''; // Reset dropdown
+    }
+}
+
+// Enhanced error display with retry functionality
+function displayError(message) {
+    const container = document.getElementById('lessonContainer');
+    container.innerHTML = `
+        <div class="lesson-card">
+            <div class="error" style="color: red; text-align: center; padding: 20px;">
+                <h3>⚠️ Error</h3>
+                <p>${message}</p>
+                <div style="margin-top: 20px;">
+                    <button class="nav-button" onclick="loadLesson(${currentLessonNumber})" style="margin-right: 10px;">
+                        🔄 Retry
+                    </button>
+                    <button class="nav-button" onclick="loadLesson(1)">
+                        🏠 Go to Lesson 1
+                    </button>
+                </div>
+            </div>
+        </div>
+    `;
+}
+
+// Function to clear cache (useful for debugging or updates)
+function clearLessonsCache() {
+    lessonsCache.clear();
+    console.log('Lessons cache cleared');
+}
+
+// Function to check Firestore connection
+async function checkFirestoreConnection() {
+    try {
+        // Try to read a simple document or use a lightweight operation
+        const testRef = doc(db, 'lessons', 'lesson1');
+        await getDoc(testRef);
+        return true;
+    } catch (error) {
+        console.error('Firestore connection failed:', error);
+        return false;
+    }
 }
 
 // Display a specific section of the current lesson

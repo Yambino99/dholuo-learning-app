@@ -1,0 +1,146 @@
+{
+    "id": 18,
+    "title": "Continuation on Tenses in Dholuo",
+    "description": "Learn how to conjugate verbs in different tenses in Luo",
+    "sections": [
+      {
+        "type": "theory",
+        "title": "📚 Theory: More on Tenses: The Past Tense",
+        "content": {
+          "introduction": "There's other ways to form the past tense using the phrases below.",
+          "phrases": [
+              {
+                "dholuo": "Nyocha", 
+                "english": "The day before yesterday"
+              },
+              {
+                "dholuo": "A", 
+                "english": "To come from (doing something)",
+                "notes": "It's used for the very immediate past."
+              },
+              {
+                "dholuo": "Yande", 
+                "english": "Recently"
+              }
+            ],
+            "grammar_note": "Let's see how these words are used in practice."
+              }
+        },
+        {
+        "type": "table",
+        "title": "📚 Other ways to indicate the past.", 
+        "content": {
+            "introduction": "Here's how to conjugate verbs in past tense using other past tense markers.",
+            "columns": ["Past Tense Marker", "English Meaning", "Dholuo example", "English Translation"],
+            "rows": [
+                ["Nyocha", "The day before yesterday (or two days ago)", "Nyocha atuo", "I was sick two days ago"],
+                ["Yande", "Recently", "Yande atuo", "I was sick recently"],
+                ["A", "To come from", "A atuo", "I have just come from being sick (but I no longer am)"]
+              ]
+            }
+          },
+      {
+        "type": "conversation",
+        "title": "💬 Conversation Practice",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Yande ang'iewo puodho",
+              "literal": "Recently + I bought + farm?",
+              "english": "Recently I bought a farm."
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "Idwaro timo ang'o kode?",
+              "literal": "You want + to do + what + with it?",
+              "english": "What do you want to do with it?"
+            },
+            {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "A apoge diriyo",
+                "literal": "I come from + I divided it + twice.",
+                "english": "I have just come from dividing it in two."
+              },
+            {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "Amiyo nyara nus, to wouda be amiyo nus",
+                "literal": "I give + my daughter + half, + and + my son + also + I give + half ",
+                "english": "I will give my daughter half, and my son also half"
+              }
+          ]
+        }
+      },
+      {
+        "type": "vocabulary",
+        "title": "📚 Vocabulary from the Conversation",
+        "content": {
+          "words": [
+            {
+              "dholuo": "Ang'iewo",
+              "english": "I buy",
+              "type": "Verb",
+              "notes": "Derived from the word 'ng'iewo' which means 'to buy'"
+            },
+            {
+              "dholuo": "Nus", 
+              "english": "Half",
+              "type": "Noun",
+              "notes": "This is a loan word from the kiswahili word 'nusu' which means 'half'."
+            },
+            {
+                "dholuo": "Apoge", 
+                "english": "I divide it",
+                "type": "Verb",
+                "notes": "Derived from the verb 'pogo' which means 'to divide'."
+              }
+          ]
+        }
+      },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "pronunciation": [
+            {
+              "dholuo": "Ang'iewo",
+              "phonetic": "[ah-ng'e-woe]",
+              "tips": "Uses the 'ng' sound at the end of the english word 'sing'.",
+              "audio_file": "audio/ng'iewo.mp3"
+            },
+            {
+              "dholuo": "Nus",
+              "phonetic": "[noo-s]",
+              "tips": "Like the english word 'noose'",
+              "audio_file": "audio/nus.mp3"
+            },
+            {
+              "dholuo": "Apoge",
+              "phonetic": "[Ah-pow-geh]",
+              "audio_file": "audio/apoge.mp3"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "Which of the following is the odd one out?",
+              "options": ["A achiemo", "Nende achiemo", "Nyocha achiemo", "Achiemo"],
+              "correct_answer": 4,
+              "explanation": "It's the only one in the present tense."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'A amosogi' mean?",
+              "options": ["I greet her", "I have just come from greeting them", "I greeted you", "They have just come from greeting me"],
+              "correct_answer": 2,
+              "explanation": "'A' means 'to come from'. Taken together, 'A amosogi' means 'I have just come from greeting them'."
+            }
+          ]
+        }
+      }
+    ]
+}

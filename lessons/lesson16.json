@@ -1,0 +1,149 @@
+{
+    "id": 16,
+    "title": "Continuation on Tenses in Dholuo",
+    "description": "Learn how to conjugate verbs in different tenses in Luo",
+    "sections": [
+      {
+        "type": "theory",
+        "title": "📚 Theory: More on Tenses: The Past Tense",
+        "content": {
+          "introduction": "The most common way to form the past tense is to add the word 'ne' before a verb. It's derived from the word 'nende' which means 'formerly'.",
+          "phrases": [
+            {
+                "dholuo": "Nende",
+                "english": "Formerly",
+                "notes": "Is usually contracted to 'Ne'."
+              }
+            ],
+            "grammar_note": "Let's see how this is used in practice."
+              }
+        },
+        {
+        "type": "table",
+        "title": "📚 Use of 'ne' to indicate the past.", 
+        "content": {
+            "introduction": "Here's how to conjugate verbs in past tense using 'ne'.",
+            "columns": ["English (Present tense)", "Dholuo (Present tense)", "English (Present tense)", "Dholuo (Past Tense)", "Dhouluo (Past tense - contracted)"],
+            "rows": [
+                ["I am writing", "Andiko", "I wrote", "Nende andiko or Ne andiko", "Nandiko"],
+                ["You are writing", "Indiko", "You wrote", "Nende indiko or ne indiko", "Nindiko"],
+                ["He/She is writing", "Ondiko", "He/She wrote", "Nende ondiko or ne ondiko", "Nondiko"],
+                ["We are writing", "Wandiko", "We wrote", "Ne wandiko", "Nende wandiko or ne wandiko"],
+                ["You (plural) are writing", "Undiko", "You (plural) wrote", "Nende undiko or ne undiko", "Nundiko"],
+                ["They are writing", "Gi ndiko", "They wrote", "Ne gindiko", "Nende gindiko or ne gindiko"]
+              ],
+            "grammar_note": "When a word ending in a vowel is followed by a word starting with a vowel, the first vowel is dropped. Thus 'Ne andiko' is contracted to 'nandiko'."
+            }
+          },
+      {
+        "type": "conversation",
+        "title": "💬 Conversation Practice",
+        "content": {
+          "dialogue": [
+            {
+              "speaker": "Yambo",
+              "speaker_type": "A",
+              "dholuo": "Nidhi kanye?",
+              "literal": "You went + where?",
+              "english": "Where did you go?"
+            },
+            {
+              "speaker": "Akinyi",
+              "speaker_type": "B",
+              "dholuo": "Nadhi skul",
+              "literal": "I went + school",
+              "english": "I went to school."
+            },
+            {
+                "speaker": "Yambo",
+                "speaker_type": "A",
+                "dholuo": "To nisomo?",
+                "literal": "And + you read?",
+                "english": "And you read?"
+              },
+              {
+                "speaker": "Akinyi",
+                "speaker_type": "B",
+                "dholuo": "Ehh nasomo buk.",
+                "literal": "Yes + i read + book",
+                "english": "Yes, I read a book."
+              }
+          ]
+        }
+      },
+      {
+        "type": "vocabulary",
+        "title": "📚 Vocabulary from the Conversation",
+        "content": {
+          "words": [
+            {
+              "dholuo": "Skul",
+              "english": "School",
+              "type": "Noun",
+              "notes": "A loan word from English"
+            },
+            {
+              "dholuo": "Somo", 
+              "english": "To read",
+              "type": "Verb",
+              "notes": "A loan word from the Kiswahili word 'soma' which means 'to read'."
+            },
+            {
+                "dholuo": "Buk", 
+                "english": "A book",
+                "type": "Noun",
+                "notes": "A loan word from English."
+              }
+          ]
+        }
+      },
+      {
+        "type": "practice",
+        "title": "🎯 Practice Exercises",
+        "content": {
+          "pronunciation": [
+            {
+              "dholuo": "Skul",
+              "phonetic": "[s-cool]",
+              "tips": "Pronounced like the english word 'school'",
+              "audio_file": "audio/skul.mp3"
+            },
+            {
+              "dholuo": "Buk",
+              "phonetic": "[boo-k]",
+              "tips": "Pronounced like the english word 'book'",
+              "audio_file": "audio/buk.mp3"
+            },
+            {
+              "dholuo": "Somo",
+              "phonetic": "[sow-mow]",
+              "audio_file": "audio/somo.mp3"
+            }
+          ],
+          "exercises": [
+            {
+              "type": "multiple_choice",
+              "question": "What is the correct way to say 'she ran'?",
+              "options": ["Naringo", "Nende oringo", "Nuringo", "Ne giringo"],
+              "correct_answer": 2,
+              "explanation": "'O' is the pronoun suffix for he/she."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'Namosogi' mean?",
+              "options": ["I greet her", "She greets me", "I greeted them", "We greeted them"],
+              "correct_answer": 3,
+              "explanation": "Contracted from 'Ne amosogi' which means 'formerly, I greeted them'."
+            },
+            {
+              "type": "multiple_choice",
+              "question": "What does 'Nuting'o rabolo' mean?",
+              "options": ["I am carrying bananas", "You carried bananas", "I am carrying meat", "I am carrying wheat"],
+              "correct_answer": 2,
+              "explanation": "Contracted from 'Ne uting'o rabolo' which means 'formerly, you carried bananas."
+            }
+          ]
+        }
+      }
+    ]
+}
